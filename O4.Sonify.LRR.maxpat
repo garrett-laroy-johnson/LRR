@@ -30,6 +30,34 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"frgb" : 0.0,
+					"id" : "obj-17",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 147.0, 94.5, 142.0, 19.0 ],
+					"text" : "Chris's iPods"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"frgb" : 0.0,
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 147.0, 75.5, 142.0, 19.0 ],
+					"text" : "sparkfun devices"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.88407, 0.883223, 0.921569, 1.0 ],
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial Bold",
@@ -123,7 +151,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 865.0, 77.0, 602.0, 315.0 ],
+						"rect" : [ 838.0, 77.0, 602.0, 315.0 ],
 						"bgcolor" : [ 0.883322, 0.883322, 0.883322, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -143,7 +171,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ "Acc2" ],
@@ -249,7 +276,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Helvetica Neue Light",
@@ -13004,7 +13030,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ "kick.out" ],
@@ -14728,7 +14753,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -15636,7 +15660,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 571.0, 544.0, 151.0, 18.0 ],
-									"text" : "/track.8/fader 121"
+									"text" : "/view/highlight \"0\""
 								}
 
 							}
@@ -24781,463 +24805,463 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
+			"obj-14::obj-43::obj-36::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-14::obj-43::obj-45::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-14::obj-14" : [ "live.tab[12]", "live.tab[12]", 0 ],
+			"obj-14::obj-43::obj-35::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
+			"obj-14::obj-43::obj-47::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
 			"obj-14::obj-43::obj-48::obj-69" : [ "live.tab[8]", "live.tab", 0 ],
 			"obj-14::obj-43::obj-34::obj-69" : [ "live.tab", "live.tab", 0 ],
 			"obj-14::obj-43::obj-51::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
 			"obj-14::obj-43::obj-56::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
 			"obj-14::obj-43::obj-44::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-14::obj-14" : [ "live.tab[12]", "live.tab[12]", 0 ],
-			"obj-14::obj-43::obj-36::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-14::obj-43::obj-45::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-14::obj-43::obj-35::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-14::obj-43::obj-47::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
 			"obj-7::obj-45" : [ "live.tab[11]", "live.tab[11]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "jmod.sur.input~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.input~",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.input~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.input~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.meter_receive.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/meter_receive",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/meter_receive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.sur.input~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.input~",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.input~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.input~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "input.timeDisplay.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.input~",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.input~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.input~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.sur.output~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.output~",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.output~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.output~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.sur.output~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.output~",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.output~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.output~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.audioOnOff.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/audioOnOff",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/audioOnOff",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/audioOnOff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.js_systeminfo.js",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/javascript",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/javascript",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.initialized.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/initialized",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/initialized",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.nav.sur.rogs~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/NavNav-master/jmod.nav.sur.rogs~",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/NavNav-master/jmod.nav.sur.rogs~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/NavNav-master/jmod.nav.sur.rogs~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.sur.rogs~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/NavNav-master/jmod.nav.sur.rogs~",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/NavNav-master/jmod.nav.sur.rogs~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/NavNav-master/jmod.nav.sur.rogs~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.nav.oscroute.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/NavNav-master/jmod.nav.oscRoute",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/NavNav-master/jmod.nav.oscRoute",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/NavNav-master/jmod.nav.oscRoute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.modulesDumper.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/modulesDumper",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/modulesDumper",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/modulesDumper",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getAllAttributes.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/getAllAttributes",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getAllAttributes",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getAllAttributes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getReturnNames.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/getReturnNames",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getReturnNames",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getReturnNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getParameterNames.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/getParameterNames",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getParameterNames",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getParameterNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getMessageNames.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/getMessageNames",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getMessageNames",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getMessageNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getOneAttribute.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/getOneAttribute",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getOneAttribute",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getOneAttribute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.autoscale.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/autoscale",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/autoscale",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/autoscale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "!.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/JamomaUserLib/Schumacher/modules/jmod.sur.Bformat-IR~",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/JamomaUserLib/Schumacher/modules/jmod.sur.Bformat-IR~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/JamomaUserLib/Schumacher/modules/jmod.sur.Bformat-IR~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.nav.ambicontrol.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.ambicontrol",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.ambicontrol",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.ambicontrol",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jlag.nav.ambicontrol.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.ambicontrol",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.ambicontrol",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.ambicontrol",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.sur.setup.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.setup",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.setup",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.setup",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.sur.channel.xyz_setup.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.setup",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.setup",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/spatialization/sur.setup",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.ambimonitor2position.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/ambimonitor2position",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/ambimonitor2position",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/ambimonitor2position",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.position2ambimonitor.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/position2ambimonitor",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/position2ambimonitor",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/position2ambimonitor",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.bridge.ambi2spat.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/JamomaUserLib/NavNav/jmod.nav.ambispat~",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/JamomaUserLib/NavNav/jmod.nav.ambispat~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/JamomaUserLib/NavNav/jmod.nav.ambispat~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nav.gain~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.Sonify.ASU/Dependancies/other",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.Sonify.ASU/Dependancies/other",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.Sonify.ASU/Dependancies/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.filter~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/filter~",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/filter~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/filter~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.filter~.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/filter~",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/filter~",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/audio/filter~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "o4.net_recv.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.net.ASU",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.net.ASU",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.net.ASU",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.bcf2000.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/control/bcf2000",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/control/bcf2000",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/control/bcf2000",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.bcf2000.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/control/bcf2000",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/control/bcf2000",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/control/bcf2000",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BCFFader.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/control/bcf2000",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/control/bcf2000",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/control/bcf2000",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Push_encoder_turn.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/control/bcf2000",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/control/bcf2000",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/control/bcf2000",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Push_encoder_press.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/control/bcf2000",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/control/bcf2000",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/control/bcf2000",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "BCFKey.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/control/bcf2000",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/control/bcf2000",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/control/bcf2000",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GB.motion.analysis2.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.Sonify.ASU/Dependancies/other",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.Sonify.ASU/Dependancies/other",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.Sonify.ASU/Dependancies/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.nav.scale.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.scale",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.scale",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.nav.scale.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.scale",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.scale",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma-0.5.7-Package/NavNav-master/jmod.nav.scale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GB.motionTrack%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.Sonify.ASU/Dependancies/other",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.Sonify.ASU/Dependancies/other",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Synthesis_o4/O4_ASU/O4_ASU/O4.Sonify.ASU/Dependancies/other",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.motion%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/motion%",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/motion%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/motion%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.motion%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/motion%",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/motion%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/motion%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.motion%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/motion%",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/motion%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/motion%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.checkplanes%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/checkplanes%",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/checkplanes%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/checkplanes%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.absdiff.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/absdiff",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/absdiff",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/absdiff",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.passmatrixinfo%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/passmatrixinfo%",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/passmatrixinfo%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/passmatrixinfo%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.rgb2luma%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/rgb2luma%",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/rgb2luma%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/rgb2luma%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.sum%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/sum%",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/sum%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/sum%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.input%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.input%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.input%.ui.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/input%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.orsize%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/orsize%",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/orsize%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/orsize%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.orsize%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/orsize%",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/orsize%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/orsize%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.pwindow.mouse.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/pwindow.mouse",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/pwindow.mouse",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/pwindow.mouse",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.brcosa%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/brcosa%",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/brcosa%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/brcosa%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.brcosa%.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/video/brcosa%",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/brcosa%",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/video/brcosa%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.cueManager.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/modules/control/cueManager",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/control/cueManager",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/modules/control/cueManager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.syn.poly~.maxpat",
-				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/LRR",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jamoma.poly~.maxpat",
-				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/LRR",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -25245,55 +25269,55 @@
 , 			{
 				"name" : "jmod.nav.oscroute.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/NavNav-master/jmod.nav.oscRoute",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/NavNav-master/jmod.nav.oscRoute",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/NavNav-master/jmod.nav.oscRoute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "store_input_3.maxpat",
 				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/LRR/pyg_cz sound",
-				"patcherrelativepath" : "./LRR/pyg_cz sound",
+				"patcherrelativepath" : "./pyg_cz sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vst_dyn_3.2.maxpat",
 				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/LRR/pyg_cz sound",
-				"patcherrelativepath" : "./LRR/pyg_cz sound",
+				"patcherrelativepath" : "./pyg_cz sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_bp_midi-or-soundplayerpoly3.2.maxpat",
 				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/LRR/pyg_cz sound",
-				"patcherrelativepath" : "./LRR/pyg_cz sound",
+				"patcherrelativepath" : "./pyg_cz sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_soundplayer_inPoly.maxpat",
 				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/LRR/pyg_cz sound",
-				"patcherrelativepath" : "./LRR/pyg_cz sound",
+				"patcherrelativepath" : "./pyg_cz sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "_kapselung_accelerometer3.2.maxpat",
 				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/LRR/pyg_cz sound",
-				"patcherrelativepath" : "./LRR/pyg_cz sound",
+				"patcherrelativepath" : "./pyg_cz sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.syn.imu.maxpat",
-				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/LRR",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.syn.ipod.maxpat",
-				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/LRR",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
