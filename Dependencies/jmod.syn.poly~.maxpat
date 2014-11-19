@@ -271,6 +271,34 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.595187,
+									"id" : "obj-11",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 390.0, 248.455566, 127.0, 17.0 ],
+									"text" : "script delete polybuffer"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Helvetica Neue",
+									"fontsize" : 12.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 390.0, 165.0, 66.0, 20.0 ],
+									"text" : "closebang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.595187,
 									"id" : "obj-74",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -431,6 +459,25 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 398.0, 247.0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-55", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-55", 0 ],
 									"disabled" : 0,
@@ -3990,20 +4037,20 @@
 		"dependency_cache" : [ 			{
 				"name" : "jcom.meter_receive.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/meter_receive",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/meter_receive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jamoma.poly~.maxpat",
-				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS",
+				"bootpath" : "/Users/Fishes/Documents/Arizona_State_University /SPRING 2014/SYNTHESIS/LRR/Dependencies",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4011,63 +4058,63 @@
 , 			{
 				"name" : "jmod.nav.oscroute.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/NavNav-master/jmod.nav.oscRoute",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/NavNav-master/jmod.nav.oscRoute",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/NavNav-master/jmod.nav.oscRoute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.modulesDumper.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/modulesDumper",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/modulesDumper",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/modulesDumper",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getAllAttributes.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/getAllAttributes",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getAllAttributes",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getAllAttributes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getReturnNames.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/getReturnNames",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getReturnNames",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getReturnNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getParameterNames.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/getParameterNames",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getParameterNames",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getParameterNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getMessageNames.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/getMessageNames",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getMessageNames",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getMessageNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getOneAttribute.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/getOneAttribute",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getOneAttribute",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/getOneAttribute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.autoscale.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/Jamoma/library/components/autoscale",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/autoscale",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/Cycling '74/Jamoma/library/components/autoscale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4128,11 +4175,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.return.mxo",
+				"name" : "jcom.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jcom.return.mxo",
+				"name" : "jcom.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
