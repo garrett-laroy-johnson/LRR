@@ -9,7 +9,6 @@
  ######################## 
  # 
  # Module /ipods 
- 	 	 	 	 /ipods/alias /ipods/alias/remove 
  	 	 	 	 /ipods/PORT_RCV 5001 
  	 	 	 	 /ipods/view/freeze 0 
  	 	 	 	 /ipods/view/highlight 0 
@@ -123,7 +122,6 @@
  	 	 	 	 /head/view/freeze 0 
  # 
  # Module /leftarm 
- 	 	 	 	 /leftarm/alias /leftarm/alias/remove 
  	 	 	 	 /leftarm/in/module/name /Acc2 
  	 	 	 	 /leftarm/in/module/instance 0 
  	 	 	 	 /leftarm/function linear 
@@ -173,7 +171,6 @@
  	 	 	 	 /leftshoulder/view/freeze 0 
  # 
  # Module /rightshouldar 
- 	 	 	 	 /rightshouldar/alias /rightshouldar/alias/remove 
  	 	 	 	 /rightshouldar/in/module/name /Acc2 
  	 	 	 	 /rightshouldar/in/module/instance 0 
  	 	 	 	 /rightshouldar/function linear 
@@ -270,7 +267,6 @@
  	 	 	 	 /rightfoot.1/view/freeze 0 
  # 
  # Module /tummy.1 
- 	 	 	 	 /tummy.1/alias /tummy.1/alias/remove 
  	 	 	 	 /tummy.1/in/module/name /Acc1 
  	 	 	 	 /tummy.1/in/module/instance 0 
  	 	 	 	 /tummy.1/function linear 
@@ -319,7 +315,6 @@
  	 	 	 	 /head.1/view/freeze 0 
  # 
  # Module /leftarm.1 
- 	 	 	 	 /leftarm.1/alias /leftarm.1/alias/remove 
  	 	 	 	 /leftarm.1/in/module/name /all-fixed 
  	 	 	 	 /leftarm.1/in/module/instance 0 
  	 	 	 	 /leftarm.1/function linear 
@@ -344,7 +339,6 @@
  	 	 	 	 /leftarm.1/view/freeze 0 
  # 
  # Module /leftshoulder.1 
- 	 	 	 	 /leftshoulder.1/alias /leftshoulder.1/alias/remove 
  	 	 	 	 /leftshoulder.1/in/module/name /large 
  	 	 	 	 /leftshoulder.1/in/module/instance 0 
  	 	 	 	 /leftshoulder.1/function linear 
@@ -418,8 +412,8 @@
  # 
  # Module /CorpusDancer1 
  	 	 	 	 /CorpusDancer1/audio/active 1 
- 	 	 	 	 /CorpusDancer1/audio/gain 42.000000 
- 	 	 	 	 /CorpusDancer1/audio/mute 0 
+ 	 	 	 	 /CorpusDancer1/audio/gain 0.000000 
+ 	 	 	 	 /CorpusDancer1/audio/mute 1 
  	 	 	 	 /CorpusDancer1/limiter/active 1 
  	 	 	 	 /CorpusDancer1/limiter/dcblocker/active 1 
  	 	 	 	 /CorpusDancer1/limiter/lookahead 64 
@@ -438,8 +432,8 @@
  # 
  # Module /CorpusDancer2 
  	 	 	 	 /CorpusDancer2/audio/active 1 
- 	 	 	 	 /CorpusDancer2/audio/gain 42.000000 
- 	 	 	 	 /CorpusDancer2/audio/mute 0 
+ 	 	 	 	 /CorpusDancer2/audio/gain 0.000000 
+ 	 	 	 	 /CorpusDancer2/audio/mute 1 
  	 	 	 	 /CorpusDancer2/limiter/active 1 
  	 	 	 	 /CorpusDancer2/limiter/dcblocker/active 1 
  	 	 	 	 /CorpusDancer2/limiter/lookahead 64 
@@ -458,8 +452,8 @@
  # 
  # Module /kick.out 
  	 	 	 	 /kick.out/audio/active 1 
- 	 	 	 	 /kick.out/audio/gain 0.000000 
- 	 	 	 	 /kick.out/audio/mute 1 
+ 	 	 	 	 /kick.out/audio/gain 33.000000 
+ 	 	 	 	 /kick.out/audio/mute 0 
  	 	 	 	 /kick.out/limiter/active 1 
  	 	 	 	 /kick.out/limiter/dcblocker/active 1 
  	 	 	 	 /kick.out/limiter/lookahead 64 
@@ -477,10 +471,9 @@
  	 	 	 	 /kick.out/view/highlight 0 
  # 
  # Module /cymbals.out 
- 	 	 	 	 /cymbals.out/alias /cymbals.out/alias/remove 
  	 	 	 	 /cymbals.out/audio/active 1 
- 	 	 	 	 /cymbals.out/audio/gain 0.000000 
- 	 	 	 	 /cymbals.out/audio/mute 1 
+ 	 	 	 	 /cymbals.out/audio/gain 33.000000 
+ 	 	 	 	 /cymbals.out/audio/mute 0 
  	 	 	 	 /cymbals.out/limiter/active 1 
  	 	 	 	 /cymbals.out/limiter/dcblocker/active 1 
  	 	 	 	 /cymbals.out/limiter/lookahead 64 
@@ -499,8 +492,8 @@
  # 
  # Module /snare.out 
  	 	 	 	 /snare.out/audio/active 1 
- 	 	 	 	 /snare.out/audio/gain 0.000000 
- 	 	 	 	 /snare.out/audio/mute 1 
+ 	 	 	 	 /snare.out/audio/gain 33.000000 
+ 	 	 	 	 /snare.out/audio/mute 0 
  	 	 	 	 /snare.out/limiter/active 1 
  	 	 	 	 /snare.out/limiter/dcblocker/active 1 
  	 	 	 	 /snare.out/limiter/lookahead 64 
@@ -542,7 +535,6 @@
  	 	 	 	 /speed/view/freeze 0 
  # 
  # Module /delay 
- 	 	 	 	 /delay/alias /delay/alias/remove 
  	 	 	 	 /delay/in/module/name /Acc2 
  	 	 	 	 /delay/in/module/instance 0 
  	 	 	 	 /delay/function linear 
@@ -701,13 +693,13 @@
  	 	 	 	 /amplitude.1/view/freeze 0 
  # 
  # Module /trigger.1 
- 	 	 	 	 /trigger.1/in/module/name /Acc1 
+ 	 	 	 	 /trigger.1/in/module/name /large 
  	 	 	 	 /trigger.1/in/module/instance 1 
  	 	 	 	 /trigger.1/function linear 
  	 	 	 	 /trigger.1/function/symmetry 0 
  	 	 	 	 /trigger.1/function/parameter2 0.000000 
  	 	 	 	 /trigger.1/function/parameter1 0.000000 
- 	 	 	 	 /trigger.1/in/module/parameter /ACCY 
+ 	 	 	 	 /trigger.1/in/module/parameter /out/final 
  	 	 	 	 /trigger.1/clip 0 
  	 	 	 	 /trigger.1/in/direct 0 
  	 	 	 	 /trigger.1/in/module/listindex 1 
@@ -812,13 +804,13 @@
  # 
  # Module /trigger.2 
  	 	 	 	 /trigger.2/alias /trigger.2/alias/remove 
- 	 	 	 	 /trigger.2/in/module/name /Acc1 
+ 	 	 	 	 /trigger.2/in/module/name /small 
  	 	 	 	 /trigger.2/in/module/instance 1 
  	 	 	 	 /trigger.2/function linear 
  	 	 	 	 /trigger.2/function/symmetry 0 
  	 	 	 	 /trigger.2/function/parameter2 0.000000 
  	 	 	 	 /trigger.2/function/parameter1 0.000000 
- 	 	 	 	 /trigger.2/in/module/parameter /ACCX 
+ 	 	 	 	 /trigger.2/in/module/parameter /out/final 
  	 	 	 	 /trigger.2/clip 0 
  	 	 	 	 /trigger.2/in/direct 0 
  	 	 	 	 /trigger.2/in/module/listindex 1 
@@ -870,7 +862,6 @@
  	 	 	 	 /waterOut/view/highlight 0 
  # 
  # Module /water 
- 	 	 	 	 /water/alias /water/alias/remove 
  	 	 	 	 /water/grain/in/module/name 0 
  	 	 	 	 /water/onsetVar/in/module/name 0 
  	 	 	 	 /water/pVar/in/module/name /centerY 
@@ -1011,7 +1002,7 @@
  	 	 	 	 /water/pitch/slide/up 0 
  	 	 	 	 /water/pitch/transpose 0.000000 
  	 	 	 	 /water/pitch/variation 2.000000 
- 	 	 	 	 /water/position 27384.279297 
+ 	 	 	 	 /water/position 17627.107422 
  	 	 	 	 /water/position/in/module/listindex 1 
  	 	 	 	 /water/position/mute 0 
  	 	 	 	 /water/position/offset 0.000000 
@@ -1238,7 +1229,7 @@
  	 	 	 	 /crisp1/pitch/slide/up 0 
  	 	 	 	 /crisp1/pitch/transpose 0.000000 
  	 	 	 	 /crisp1/pitch/variation 4.000000 
- 	 	 	 	 /crisp1/position 3429.142822 
+ 	 	 	 	 /crisp1/position 1559.435425 
  	 	 	 	 /crisp1/position/in/module/listindex 1 
  	 	 	 	 /crisp1/position/mute 0 
  	 	 	 	 /crisp1/position/offset 0.000000 
@@ -1305,7 +1296,6 @@
  	 	 	 	 /crisp1/view/highlight 0 
  # 
  # Module /highSusOut 
- 	 	 	 	 /highSusOut/alias /highSusOut/alias/remove 
  	 	 	 	 /highSusOut/audio/active 1 
  	 	 	 	 /highSusOut/audio/gain 4.000000 
  	 	 	 	 /highSusOut/audio/mute 0 
@@ -1466,7 +1456,7 @@
  	 	 	 	 /highSus1/pitch/slide/up 0 
  	 	 	 	 /highSus1/pitch/transpose 0.000000 
  	 	 	 	 /highSus1/pitch/variation -1.000000 
- 	 	 	 	 /highSus1/position 12692.583008 
+ 	 	 	 	 /highSus1/position 10964.267578 
  	 	 	 	 /highSus1/position/in/module/listindex 1 
  	 	 	 	 /highSus1/position/mute 0 
  	 	 	 	 /highSus1/position/offset 0.000000 
@@ -1686,7 +1676,6 @@
  	 	 	 	 /centerY/visualize 1 
  # 
  # Module /all-fixed 
- 	 	 	 	 /all-fixed/alias /all-fixed/alias/remove 
  	 	 	 	 /all-fixed/function 0 
  	 	 	 	 /all-fixed/function/symmetry 0 
  	 	 	 	 /all-fixed/function/parameter2 0.000000 
@@ -1751,7 +1740,6 @@
  	 	 	 	 /height/visualize 1 
  # 
  # Module /area 
- 	 	 	 	 /area/alias /area/alias/remove 
  	 	 	 	 /area/function 0 
  	 	 	 	 /area/function/symmetry 0 
  	 	 	 	 /area/function/parameter2 0.000000 
@@ -1784,7 +1772,6 @@
  	 	 	 	 /area/visualize 1 
  # 
  # Module /width 
- 	 	 	 	 /width/alias /width/alias/remove 
  	 	 	 	 /width/function 0 
  	 	 	 	 /width/function/symmetry 0 
  	 	 	 	 /width/function/parameter2 0.000000 
@@ -1817,7 +1804,6 @@
  	 	 	 	 /width/visualize 1 
  # 
  # Module /all 
- 	 	 	 	 /all/alias /all/alias/remove 
  	 	 	 	 /all/function 0 
  	 	 	 	 /all/function/symmetry 0 
  	 	 	 	 /all/function/parameter2 0.000000 
@@ -1850,7 +1836,6 @@
  	 	 	 	 /all/visualize 1 
  # 
  # Module /large 
- 	 	 	 	 /large/alias /large/alias/remove 
  	 	 	 	 /large/function 0 
  	 	 	 	 /large/function/symmetry 0 
  	 	 	 	 /large/function/parameter2 0.000000 
@@ -1915,7 +1900,6 @@
  	 	 	 	 /small/visualize 1 
  # 
  # Module /bcf2000 
- 	 	 	 	 /bcf2000/alias /bcf2000/alias/remove 
  	 	 	 	 /bcf2000/midiIn BCF2000 Port 1 
  	 	 	 	 /bcf2000/midiOut BCF2000 Port 1 
  	 	 	 	 /bcf2000/button.1 0 
@@ -1990,12 +1974,12 @@
  	 	 	 	 /bcf2000/track.8/pushEncoder.4/turn 0 
  	 	 	 	 /bcf2000/track.1/fader 0 
  	 	 	 	 /bcf2000/track.2/fader 0 
- 	 	 	 	 /bcf2000/track.3/fader 24 
+ 	 	 	 	 /bcf2000/track.3/fader 35 
  	 	 	 	 /bcf2000/track.4/fader 0 
  	 	 	 	 /bcf2000/track.5/fader 5 
  	 	 	 	 /bcf2000/track.6/fader 0 
- 	 	 	 	 /bcf2000/track.7/fader 0 
- 	 	 	 	 /bcf2000/track.8/fader 51 
+ 	 	 	 	 /bcf2000/track.7/fader 39 
+ 	 	 	 	 /bcf2000/track.8/fader 0 
  	 	 	 	 /bcf2000/track.1/key.lower 0 
  	 	 	 	 /bcf2000/track.1/key.upper 0 
  	 	 	 	 /bcf2000/track.2/key.lower 0 
@@ -2546,9 +2530,8 @@
  	 	 	 	 /EaCrum/view/highlight 0 
  # 
  # Module /lowVarOut 
- 	 	 	 	 /lowVarOut/alias /lowVarOut/alias/remove 
  	 	 	 	 /lowVarOut/audio/active 1 
- 	 	 	 	 /lowVarOut/audio/gain 20.000000 
+ 	 	 	 	 /lowVarOut/audio/gain 29.000000 
  	 	 	 	 /lowVarOut/audio/mute 0 
  	 	 	 	 /lowVarOut/limiter/active 1 
  	 	 	 	 /lowVarOut/limiter/dcblocker/active 1 
@@ -2567,7 +2550,6 @@
  	 	 	 	 /lowVarOut/view/highlight 0 
  # 
  # Module /lowSus1 
- 	 	 	 	 /lowSus1/alias /lowSus1/alias/remove 
  	 	 	 	 /lowSus1/grain/in/module/name 0 
  	 	 	 	 /lowSus1/onsetVar/in/module/name /all 
  	 	 	 	 /lowSus1/pVar/in/module/name /centerX 
@@ -2708,7 +2690,7 @@
  	 	 	 	 /lowSus1/pitch/slide/up 0 
  	 	 	 	 /lowSus1/pitch/transpose 0.000000 
  	 	 	 	 /lowSus1/pitch/variation 10.000000 
- 	 	 	 	 /lowSus1/position 10218.023438 
+ 	 	 	 	 /lowSus1/position 10791.270508 
  	 	 	 	 /lowSus1/position/in/module/listindex 1 
  	 	 	 	 /lowSus1/position/mute 0 
  	 	 	 	 /lowSus1/position/offset 0.000000 
@@ -2776,7 +2758,7 @@
  # 
  # Module /winderOut 
  	 	 	 	 /winderOut/audio/active 1 
- 	 	 	 	 /winderOut/audio/gain 20.000000 
+ 	 	 	 	 /winderOut/audio/gain 29.000000 
  	 	 	 	 /winderOut/audio/mute 0 
  	 	 	 	 /winderOut/limiter/active 1 
  	 	 	 	 /winderOut/limiter/dcblocker/active 1 
@@ -2935,7 +2917,7 @@
  	 	 	 	 /winder/pitch/slide/up 0 
  	 	 	 	 /winder/pitch/transpose 0.000000 
  	 	 	 	 /winder/pitch/variation 10.000000 
- 	 	 	 	 /winder/position 23044.929688 
+ 	 	 	 	 /winder/position 9671.686523 
  	 	 	 	 /winder/position/in/module/listindex 1 
  	 	 	 	 /winder/position/mute 0 
  	 	 	 	 /winder/position/offset 0.000000 
@@ -3209,7 +3191,6 @@
  	 	 	 	 /ED-rogs-3/view/highlight 0 
  # 
  # Module /ED-rogs-2 
- 	 	 	 	 /ED-rogs-2/alias /ED-rogs-2/alias/remove 
  	 	 	 	 /ED-rogs-2/grain/in/module/name 0 
  	 	 	 	 /ED-rogs-2/onsetVar/in/module/name 0 
  	 	 	 	 /ED-rogs-2/pVar/in/module/name /centerY 

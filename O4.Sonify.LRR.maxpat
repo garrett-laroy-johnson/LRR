@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 373.0, 148.0, 315.0, 408.0 ],
+		"rect" : [ 232.0, 484.0, 315.0, 408.0 ],
 		"bgcolor" : [ 0.778745, 0.778745, 0.778745, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -279,7 +279,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 47.0, 77.0, 1024.0, 864.0 ],
+						"rect" : [ 276.0, 167.0, 1024.0, 864.0 ],
 						"bgcolor" : [ 0.935865, 0.935865, 0.935865, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -6693,7 +6693,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 511.0, 634.0, 1259.0, 906.0 ],
+						"rect" : [ 572.0, 278.0, 1259.0, 906.0 ],
 						"bgcolor" : [ 0.935865, 0.935865, 0.935865, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -8002,7 +8002,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 340.0, 66.0, 301.0, 73.0 ],
+						"rect" : [ 549.0, 59.0, 401.0, 120.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -8714,7 +8714,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 35.0, 57.0, 324.0, 400.0 ],
+						"rect" : [ 70.0, 408.0, 324.0, 400.0 ],
 						"bgcolor" : [ 0.884659, 0.884659, 0.884659, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -18772,17 +18772,17 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-14::obj-43::obj-51::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-14::obj-43::obj-56::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
 			"obj-14::obj-43::obj-48::obj-69" : [ "live.tab[8]", "live.tab", 0 ],
 			"obj-14::obj-43::obj-44::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-14::obj-43::obj-34::obj-69" : [ "live.tab", "live.tab", 0 ],
 			"obj-14::obj-43::obj-45::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
 			"obj-14::obj-43::obj-35::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-14::obj-14" : [ "live.tab[12]", "live.tab[12]", 0 ],
-			"obj-7::obj-45" : [ "live.tab[11]", "live.tab[11]", 0 ],
 			"obj-14::obj-43::obj-47::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-14::obj-43::obj-36::obj-69" : [ "live.tab[2]", "live.tab", 0 ]
+			"obj-14::obj-43::obj-36::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
+			"obj-14::obj-43::obj-34::obj-69" : [ "live.tab", "live.tab", 0 ],
+			"obj-14::obj-43::obj-51::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
+			"obj-7::obj-45" : [ "live.tab[11]", "live.tab[11]", 0 ],
+			"obj-14::obj-14" : [ "live.tab[12]", "live.tab[12]", 0 ],
+			"obj-14::obj-43::obj-56::obj-69" : [ "live.tab[3]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -19221,15 +19221,15 @@
 			}
 , 			{
 				"name" : "jmod.syn.poly~.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/jmod.syn",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/jmod.syn",
+				"bootpath" : "/Users/student/Desktop/LRR/Dependencies",
+				"patcherrelativepath" : "./Dependencies",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jamoma.poly~.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/jmod.syn",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/jmod.syn",
+				"bootpath" : "/Users/student/Desktop/LRR/Dependencies",
+				"patcherrelativepath" : "./Dependencies",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -19263,15 +19263,22 @@
 			}
 , 			{
 				"name" : "jmod.syn.imu.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/jmod.syn",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/jmod.syn",
+				"bootpath" : "/Users/student/Desktop/LRR/Dependencies",
+				"patcherrelativepath" : "./Dependencies",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.syn.ipod.maxpat",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/jmod.syn",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/Cycling '74/jmod.syn",
+				"bootpath" : "/Users/student/Desktop/LRR/Dependencies",
+				"patcherrelativepath" : "./Dependencies",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "o4.net_send.maxpat",
+				"bootpath" : "/Users/student/Desktop/Synthesis-master/O4_ASU/O4.net.ASU",
+				"patcherrelativepath" : "../Synthesis-master/O4_ASU/O4.net.ASU",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -19429,6 +19436,26 @@
 			}
 , 			{
 				"name" : "o.atomize.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zeroconf.service.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.collect.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.expr.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.pack.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.var.mxo",
 				"type" : "iLaX"
 			}
  ]
