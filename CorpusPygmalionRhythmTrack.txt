@@ -1,0 +1,232 @@
+
+ 
+ KEYCUE "CP_LRR" 
+ 
+ 
+ 	 	 	 	 /CONFIG /nav.oscroute.8 99 1 /nav.oscroute.9 99 1 /nav.oscroute.10 99 1 /nav.oscroute.11 99 1 /nav.oscroute.12 99 1 /nav.oscroute.13 99 1 /nav.oscroute.14 99 1 /nav.oscroute.15 99 1 /myModule 99 1 /eight 99 1 /seven 99 1 /six 99 1 /five 99 1 /four 99 1 /three 99 1 /two 99 1 /one 99 1 /jmod.syn.imu 99 1 /ipods 99 1 
+ 	 	 	 	 /AUTOFOLLOW 0 
+ # 
+ ######################## 
+ # 
+ # Module /nav.oscroute.8 
+ # 
+ # Module /nav.oscroute.9 
+ # 
+ # Module /nav.oscroute.10 
+ # 
+ # Module /nav.oscroute.11 
+ # 
+ # Module /nav.oscroute.12 
+ # 
+ # Module /nav.oscroute.13 
+ # 
+ # Module /nav.oscroute.14 
+ # 
+ # Module /nav.oscroute.15 
+ # 
+ # Module /myModule 
+ 	 	 	 	 /myModule/view/freeze 0 
+ 	 	 	 	 /myModule/view/highlight 0 
+ # 
+ # Module /eight 
+ 	 	 	 	 /eight/in/module/name /ipods 
+ 	 	 	 	 /eight/in/module/instance 0 
+ 	 	 	 	 /eight/function linear 
+ 	 	 	 	 /eight/function/symmetry 0 
+ 	 	 	 	 /eight/function/parameter2 0.000000 
+ 	 	 	 	 /eight/function/parameter1 0.000000 
+ 	 	 	 	 /eight/in/module/parameter /Ipod13 
+ 	 	 	 	 /eight/clip 0 
+ 	 	 	 	 /eight/in/direct 0 
+ 	 	 	 	 /eight/in/module/listindex 1 
+ 	 	 	 	 /eight/mute 0 
+ 	 	 	 	 /eight/offset 0.000000 
+ 	 	 	 	 /eight/ramp/time 0 
+ 	 	 	 	 /eight/scale/bypass 1 
+ 	 	 	 	 /eight/scale/input/max 1.000000 
+ 	 	 	 	 /eight/scale/input/min 0.000000 
+ 	 	 	 	 /eight/scale/max 1.000000 
+ 	 	 	 	 /eight/scale/min 0.000000 
+ 	 	 	 	 /eight/scale/mode 0 
+ 	 	 	 	 /eight/slide/down 0 
+ 	 	 	 	 /eight/slide/up 0 
+ 	 	 	 	 /eight/view/freeze 0 
+ # 
+ # Module /seven 
+ 	 	 	 	 /seven/in/module/name /ipods 
+ 	 	 	 	 /seven/in/module/instance 0 
+ 	 	 	 	 /seven/function linear 
+ 	 	 	 	 /seven/function/symmetry 0 
+ 	 	 	 	 /seven/function/parameter2 0.000000 
+ 	 	 	 	 /seven/function/parameter1 0.000000 
+ 	 	 	 	 /seven/in/module/parameter /Ipod16 
+ 	 	 	 	 /seven/clip 0 
+ 	 	 	 	 /seven/in/direct 0 
+ 	 	 	 	 /seven/in/module/listindex 1 
+ 	 	 	 	 /seven/mute 0 
+ 	 	 	 	 /seven/offset 0.000000 
+ 	 	 	 	 /seven/ramp/time 0 
+ 	 	 	 	 /seven/scale/bypass 1 
+ 	 	 	 	 /seven/scale/input/max 1.000000 
+ 	 	 	 	 /seven/scale/input/min 0.000000 
+ 	 	 	 	 /seven/scale/max 1.000000 
+ 	 	 	 	 /seven/scale/min 0.000000 
+ 	 	 	 	 /seven/scale/mode 0 
+ 	 	 	 	 /seven/slide/down 0 
+ 	 	 	 	 /seven/slide/up 0 
+ 	 	 	 	 /seven/view/freeze 0 
+ # 
+ # Module /six 
+ 	 	 	 	 /six/in/module/name /ipods 
+ 	 	 	 	 /six/in/module/instance 0 
+ 	 	 	 	 /six/function linear 
+ 	 	 	 	 /six/function/symmetry 0 
+ 	 	 	 	 /six/function/parameter2 0.000000 
+ 	 	 	 	 /six/function/parameter1 0.000000 
+ 	 	 	 	 /six/in/module/parameter /Ipod14 
+ 	 	 	 	 /six/clip 0 
+ 	 	 	 	 /six/in/direct 0 
+ 	 	 	 	 /six/in/module/listindex 1 
+ 	 	 	 	 /six/mute 0 
+ 	 	 	 	 /six/offset 0.000000 
+ 	 	 	 	 /six/ramp/time 0 
+ 	 	 	 	 /six/scale/bypass 1 
+ 	 	 	 	 /six/scale/input/max 1.000000 
+ 	 	 	 	 /six/scale/input/min 0.000000 
+ 	 	 	 	 /six/scale/max 1.000000 
+ 	 	 	 	 /six/scale/min 0.000000 
+ 	 	 	 	 /six/scale/mode 0 
+ 	 	 	 	 /six/slide/down 0 
+ 	 	 	 	 /six/slide/up 0 
+ 	 	 	 	 /six/view/freeze 0 
+ # 
+ # Module /five 
+ 	 	 	 	 /five/in/module/name /ipods 
+ 	 	 	 	 /five/in/module/instance 0 
+ 	 	 	 	 /five/function linear 
+ 	 	 	 	 /five/function/symmetry 0 
+ 	 	 	 	 /five/function/parameter2 0.000000 
+ 	 	 	 	 /five/function/parameter1 0.000000 
+ 	 	 	 	 /five/in/module/parameter /Ipod1 
+ 	 	 	 	 /five/clip 0 
+ 	 	 	 	 /five/in/direct 0 
+ 	 	 	 	 /five/in/module/listindex 1 
+ 	 	 	 	 /five/mute 0 
+ 	 	 	 	 /five/offset 0.000000 
+ 	 	 	 	 /five/ramp/time 0 
+ 	 	 	 	 /five/scale/bypass 1 
+ 	 	 	 	 /five/scale/input/max 1.000000 
+ 	 	 	 	 /five/scale/input/min 0.000000 
+ 	 	 	 	 /five/scale/max 1.000000 
+ 	 	 	 	 /five/scale/min 0.000000 
+ 	 	 	 	 /five/scale/mode 0 
+ 	 	 	 	 /five/slide/down 0 
+ 	 	 	 	 /five/slide/up 0 
+ 	 	 	 	 /five/view/freeze 0 
+ # 
+ # Module /four 
+ 	 	 	 	 /four/in/module/name /ipods 
+ 	 	 	 	 /four/in/module/instance 0 
+ 	 	 	 	 /four/function linear 
+ 	 	 	 	 /four/function/symmetry 0 
+ 	 	 	 	 /four/function/parameter2 0.000000 
+ 	 	 	 	 /four/function/parameter1 0.000000 
+ 	 	 	 	 /four/in/module/parameter /Ipod5 
+ 	 	 	 	 /four/clip 0 
+ 	 	 	 	 /four/in/direct 0 
+ 	 	 	 	 /four/in/module/listindex 1 
+ 	 	 	 	 /four/mute 0 
+ 	 	 	 	 /four/offset 0.000000 
+ 	 	 	 	 /four/ramp/time 0 
+ 	 	 	 	 /four/scale/bypass 1 
+ 	 	 	 	 /four/scale/input/max 1.000000 
+ 	 	 	 	 /four/scale/input/min 0.000000 
+ 	 	 	 	 /four/scale/max 1.000000 
+ 	 	 	 	 /four/scale/min 0.000000 
+ 	 	 	 	 /four/scale/mode 0 
+ 	 	 	 	 /four/slide/down 0 
+ 	 	 	 	 /four/slide/up 0 
+ 	 	 	 	 /four/view/freeze 0 
+ # 
+ # Module /three 
+ 	 	 	 	 /three/in/module/name /ipods 
+ 	 	 	 	 /three/in/module/instance 0 
+ 	 	 	 	 /three/function linear 
+ 	 	 	 	 /three/function/symmetry 0 
+ 	 	 	 	 /three/function/parameter2 0.000000 
+ 	 	 	 	 /three/function/parameter1 0.000000 
+ 	 	 	 	 /three/in/module/parameter /Ipod3 
+ 	 	 	 	 /three/clip 0 
+ 	 	 	 	 /three/in/direct 0 
+ 	 	 	 	 /three/in/module/listindex 1 
+ 	 	 	 	 /three/mute 0 
+ 	 	 	 	 /three/offset 0.000000 
+ 	 	 	 	 /three/ramp/time 0 
+ 	 	 	 	 /three/scale/bypass 1 
+ 	 	 	 	 /three/scale/input/max 1.000000 
+ 	 	 	 	 /three/scale/input/min 0.000000 
+ 	 	 	 	 /three/scale/max 1.000000 
+ 	 	 	 	 /three/scale/min 0.000000 
+ 	 	 	 	 /three/scale/mode 0 
+ 	 	 	 	 /three/slide/down 0 
+ 	 	 	 	 /three/slide/up 0 
+ 	 	 	 	 /three/view/freeze 0 
+ # 
+ # Module /two 
+ 	 	 	 	 /two/in/module/name /ipods 
+ 	 	 	 	 /two/in/module/instance 0 
+ 	 	 	 	 /two/function linear 
+ 	 	 	 	 /two/function/symmetry 0 
+ 	 	 	 	 /two/function/parameter2 0.000000 
+ 	 	 	 	 /two/function/parameter1 0.000000 
+ 	 	 	 	 /two/in/module/parameter /Ipod2 
+ 	 	 	 	 /two/clip 0 
+ 	 	 	 	 /two/in/direct 0 
+ 	 	 	 	 /two/in/module/listindex 1 
+ 	 	 	 	 /two/mute 0 
+ 	 	 	 	 /two/offset 0.000000 
+ 	 	 	 	 /two/ramp/time 0 
+ 	 	 	 	 /two/scale/bypass 1 
+ 	 	 	 	 /two/scale/input/max 1.000000 
+ 	 	 	 	 /two/scale/input/min 0.000000 
+ 	 	 	 	 /two/scale/max 1.000000 
+ 	 	 	 	 /two/scale/min 0.000000 
+ 	 	 	 	 /two/scale/mode 0 
+ 	 	 	 	 /two/slide/down 0 
+ 	 	 	 	 /two/slide/up 0 
+ 	 	 	 	 /two/view/freeze 0 
+ # 
+ # Module /one 
+ 	 	 	 	 /one/in/module/name /ipods 
+ 	 	 	 	 /one/in/module/instance 0 
+ 	 	 	 	 /one/function linear 
+ 	 	 	 	 /one/function/symmetry 0 
+ 	 	 	 	 /one/function/parameter2 0.000000 
+ 	 	 	 	 /one/function/parameter1 0.000000 
+ 	 	 	 	 /one/in/module/parameter /Ipod1 
+ 	 	 	 	 /one/clip 0 
+ 	 	 	 	 /one/in/direct 0 
+ 	 	 	 	 /one/in/module/listindex 1 
+ 	 	 	 	 /one/mute 0 
+ 	 	 	 	 /one/offset 0.000000 
+ 	 	 	 	 /one/ramp/time 0 
+ 	 	 	 	 /one/scale/bypass 1 
+ 	 	 	 	 /one/scale/input/max 1.000000 
+ 	 	 	 	 /one/scale/input/min 0.000000 
+ 	 	 	 	 /one/scale/max 1.000000 
+ 	 	 	 	 /one/scale/min 0.000000 
+ 	 	 	 	 /one/scale/mode 0 
+ 	 	 	 	 /one/slide/down 0 
+ 	 	 	 	 /one/slide/up 0 
+ 	 	 	 	 /one/view/freeze 0 
+ # 
+ # Module /jmod.syn.imu 
+ # 
+ # Module /ipods 
+ 	 	 	 	 /ipods/PORT_RCV 6001 
+ 	 	 	 	 /ipods/view/freeze 0 
+ 	 	 	 	 /ipods/view/highlight 0 
+ # 
+ ######################## 
+ 
+ 
