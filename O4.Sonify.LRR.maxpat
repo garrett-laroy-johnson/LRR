@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 100.0, 79.0, 315.0, 382.0 ],
+		"rect" : [ 740.0, 120.0, 315.0, 382.0 ],
 		"bgcolor" : [ 0.778745, 0.778745, 0.778745, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -77,7 +77,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 593.0, 97.0, 950.0, 498.0 ],
+						"rect" : [ 1328.0, 569.0, 950.0, 498.0 ],
 						"bgcolor" : [ 0.883322, 0.883322, 0.883322, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -97,7 +97,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ "LRR" ],
@@ -105,10 +104,10 @@
 									"maxclass" : "bpatcher",
 									"name" : "jmod.LRR.ipod.maxpat",
 									"numinlets" : 1,
-									"numoutlets" : 18,
-									"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-									"patching_rect" : [ -1.0, 0.0, 300.0, 70.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ]
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ -1.0, 0.0, 300.0, 105.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 300.0, 105.0 ]
 								}
 
 							}
@@ -6686,250 +6685,6 @@
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 6,
-							"architecture" : "x86"
-						}
-,
-						"rect" : [ 663.0, 399.0, 1259.0, 906.0 ],
-						"bgcolor" : [ 0.935865, 0.935865, 0.935865, 1.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 0,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
-						"boxanimatetime" : 200,
-						"imprint" : 0,
-						"enablehscroll" : 0,
-						"enablevscroll" : 0,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"boxes" : [ 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"hidden" : 1,
-									"id" : "obj-7",
-									"maxclass" : "newobj",
-									"numinlets" : 8,
-									"numoutlets" : 2,
-									"outlettype" : [ "audio.connect", "" ],
-									"patching_rect" : [ 714.5, 588.0, 113.5, 20.0 ],
-									"text" : "jcom.pack≈ 8"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-5",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 81.0, 4.0, 37.0, 20.0 ],
-									"text" : "r acc"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"args" : [ "kick.out" ],
-									"id" : "obj-15",
-									"maxclass" : "bpatcher",
-									"name" : "jmod.sur.output~.maxpat",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 540.0, 748.0, 300.0, 70.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"args" : [ "cymbals.out" ],
-									"id" : "obj-13",
-									"maxclass" : "bpatcher",
-									"name" : "jmod.sur.output~.maxpat",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 301.0, 530.0, 300.0, 70.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"args" : [ "snare.out" ],
-									"id" : "obj-9",
-									"maxclass" : "bpatcher",
-									"name" : "jmod.sur.output~.maxpat",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ -11.5, 703.0, 300.0, 70.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"hidden" : 1,
-									"id" : "obj-6",
-									"maxclass" : "newobj",
-									"numinlets" : 8,
-									"numoutlets" : 2,
-									"outlettype" : [ "audio.connect", "" ],
-									"patching_rect" : [ 450.0, 572.0, 113.5, 20.0 ],
-									"text" : "jcom.pack≈ 8"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"hidden" : 1,
-									"id" : "obj-3",
-									"maxclass" : "newobj",
-									"numinlets" : 8,
-									"numoutlets" : 2,
-									"outlettype" : [ "audio.connect", "" ],
-									"patching_rect" : [ 175.0, 653.0, 113.5, 20.0 ],
-									"text" : "jcom.pack≈ 8"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"args" : [ "kick" ],
-									"id" : "obj-4",
-									"maxclass" : "bpatcher",
-									"name" : "jmod.syn.poly~.html",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patching_rect" : [ 601.0, 40.0, 300.0, 490.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 300.0, 490.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"args" : [ "cymbals" ],
-									"id" : "obj-1",
-									"maxclass" : "bpatcher",
-									"name" : "jmod.syn.poly~.html",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patching_rect" : [ 301.0, 40.0, 300.0, 490.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 300.0, 490.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 11.0,
-									"frgb" : 0.0,
-									"id" : "obj-11",
-									"linecount" : 9,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 648.0, 796.0, 225.0, 117.0 ],
-									"text" : "Based on a patch by Todd Ingalls.\nOSCroute inputs from NavNav jamoma.lib. \n\nIntegrated w/ Rhyth. kit from J. Stein \nOzone implementation by \nGarrett Johnson\nSynthesis Center\nNov 2014\nGarrett.Laroy.Johnson@gmail.com",
-									"textcolor" : [ 0.392706, 0.392706, 0.392706, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"args" : [ "snare" ],
-									"id" : "obj-2",
-									"maxclass" : "bpatcher",
-									"name" : "jmod.syn.poly~.html",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patching_rect" : [ 1.0, 40.0, 300.0, 490.0 ],
-									"presentation_rect" : [ 0.0, 0.0, 300.0, 490.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-9", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-13", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-6", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-15", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-7", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 1.0, 309.0, 127.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
-					}
-,
-					"text" : "p Drums_of_Dost"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.88407, 0.883223, 0.921569, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial Bold",
-					"fontsize" : 14.0,
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -8390,7 +8145,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 97.0, 496.0, 324.0, 400.0 ],
+						"rect" : [ 213.0, 150.0, 324.0, 400.0 ],
 						"bgcolor" : [ 0.884659, 0.884659, 0.884659, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -9714,8 +9469,9 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 678.0, 131.0, 205.0, 33.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 13.0, 285.0, 291.0, 20.0 ],
-									"text" : "/sound/oz/platform/state/levels 82 0 0 0 32 0",
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 13.0, 285.0, 291.0, 33.0 ],
+									"text" : "/oz/platform/video/fluids/physics 131.579 1000. 13.1579",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -18448,17 +18204,18 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-14::obj-43::obj-56::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-14::obj-43::obj-48::obj-69" : [ "live.tab[8]", "live.tab", 0 ],
-			"obj-14::obj-14" : [ "live.tab[12]", "live.tab[12]", 0 ],
-			"obj-14::obj-43::obj-44::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
-			"obj-14::obj-43::obj-45::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-7::obj-45" : [ "live.tab[11]", "live.tab[11]", 0 ],
 			"obj-14::obj-43::obj-35::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-14::obj-43::obj-47::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
+			"obj-7::obj-45" : [ "live.tab[11]", "live.tab[11]", 0 ],
 			"obj-14::obj-43::obj-36::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
 			"obj-14::obj-43::obj-51::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-14::obj-43::obj-34::obj-69" : [ "live.tab", "live.tab", 0 ]
+			"obj-14::obj-14" : [ "live.tab[12]", "live.tab[12]", 0 ],
+			"obj-14::obj-43::obj-56::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-14::obj-43::obj-48::obj-69" : [ "live.tab[8]", "live.tab", 0 ],
+			"obj-22::obj-1::obj-22" : [ "live.tab[13]", "live.tab", 0 ],
+			"obj-14::obj-43::obj-44::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-14::obj-43::obj-34::obj-69" : [ "live.tab", "live.tab", 0 ],
+			"obj-14::obj-43::obj-45::obj-69" : [ "live.tab[5]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
