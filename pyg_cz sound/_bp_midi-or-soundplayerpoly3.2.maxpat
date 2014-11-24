@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 43.0, 44.0, 1278.0, 759.0 ],
+		"rect" : [ 436.0, 278.0, 1278.0, 759.0 ],
 		"bgcolor" : [ 0.709804, 0.709804, 0.709804, 1.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
@@ -592,7 +592,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 208.0, 142.0, 61.0, 20.0 ],
+									"patching_rect" : [ 208.0, 142.0, 61.0, 19.0 ],
 									"text" : "pipe 2000"
 								}
 
@@ -606,7 +606,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 237.0, 201.022461, 70.0, 18.0 ],
+									"patching_rect" : [ 237.0, 201.022461, 70.0, 17.0 ],
 									"text" : "soundfile #2"
 								}
 
@@ -620,7 +620,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 154.0, 198.0, 57.0, 20.0 ],
+									"patching_rect" : [ 154.0, 198.0, 57.0, 19.0 ],
 									"text" : "append --"
 								}
 
@@ -634,7 +634,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 154.0, 224.0, 70.0, 20.0 ],
+									"patching_rect" : [ 154.0, 224.0, 70.0, 19.0 ],
 									"text" : "zl join"
 								}
 
@@ -647,7 +647,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 154.0, 248.0, 89.0, 20.0 ],
+									"patching_rect" : [ 154.0, 248.0, 89.0, 19.0 ],
 									"text" : "print midi-config"
 								}
 
@@ -661,7 +661,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 205.0, 164.022461, 70.0, 18.0 ],
+									"patching_rect" : [ 205.0, 164.022461, 70.0, 17.0 ],
 									"text" : "soundfile $1"
 								}
 
@@ -675,7 +675,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 116.0, 164.022461, 62.0, 18.0 ],
+									"patching_rect" : [ 116.0, 164.022461, 62.0, 17.0 ],
 									"text" : "midi-ch $1"
 								}
 
@@ -689,7 +689,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "int", "" ],
-									"patching_rect" : [ 115.0, 113.0, 160.0, 20.0 ],
+									"patching_rect" : [ 115.0, 113.0, 160.0, 19.0 ],
 									"text" : "unpack defaults 1 cello-f2.aif"
 								}
 
@@ -703,7 +703,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 115.0, 88.0, 132.0, 20.0 ],
+									"patching_rect" : [ 115.0, 88.0, 132.0, 19.0 ],
 									"text" : "patcherargs 1 cello-f2.aif"
 								}
 
@@ -717,7 +717,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 14.0, 163.022461, 86.0, 18.0 ],
+									"patching_rect" : [ 14.0, 163.022461, 86.0, 17.0 ],
 									"text" : "svol 1., vol 127"
 								}
 
@@ -7196,8 +7196,49 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Geneva",
+									"fontsize" : 10.0,
+									"id" : "obj-20",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "float", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 628.0, 305.0, 50.0, 19.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Geneva",
+									"fontsize" : 10.0,
+									"id" : "obj-2",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 589.0, 305.0, 38.0, 19.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Geneva",
+									"fontsize" : 10.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 589.0, 277.0, 97.0, 19.0 ],
+									"text" : "route midi-ch svol"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.0,
@@ -7531,7 +7572,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ -1419.0, 230.0, 1263.0, 542.0 ],
+										"rect" : [ 0.0, 230.0, 1263.0, 542.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -7650,7 +7691,7 @@
 																	"maxclass" : "inlet",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
-																	"outlettype" : [ "bang" ],
+																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 62.0, 40.0, 25.0, 25.0 ]
 																}
 
@@ -7733,7 +7774,7 @@
  ]
 													}
 ,
-													"patching_rect" : [ 626.0, 339.0, 193.0, 20.0 ],
+													"patching_rect" : [ 626.0, 339.0, 193.0, 19.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
 														"default_fontname" : "Geneva",
@@ -7760,7 +7801,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 840.0, 425.0, 78.0, 20.0 ],
+													"patching_rect" : [ 840.0, 425.0, 78.0, 19.0 ],
 													"text" : "voices-display"
 												}
 
@@ -7774,7 +7815,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 624.0, 422.0, 83.0, 20.0 ],
+													"patching_rect" : [ 624.0, 422.0, 83.0, 19.0 ],
 													"text" : "buffer-infos"
 												}
 
@@ -7789,7 +7830,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "int", "bang" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 265.0, 168.0, 50.0, 20.0 ]
+													"patching_rect" : [ 265.0, 168.0, 50.0, 19.0 ]
 												}
 
 											}
@@ -7813,7 +7854,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 785.0, 299.0, 42.0, 18.0 ],
+													"patching_rect" : [ 785.0, 299.0, 42.0, 17.0 ],
 													"text" : "set $1"
 												}
 
@@ -7853,8 +7894,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 758.0, 227.899994, 98.0, 25.0 ],
-													"text" : "bn16091029853 #2"
+													"patching_rect" : [ 758.0, 227.899994, 98.0, 15.0 ],
+													"text" : "bn1384037987 #2"
 												}
 
 											}
@@ -8047,7 +8088,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 759.0, 260.899994, 98.0, 15.0 ],
-													"text" : "bn16091029853"
+													"text" : "bn1384037987"
 												}
 
 											}
@@ -8131,7 +8172,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 41.0, 36.215191, 118.0, 30.0 ],
+													"patching_rect" : [ 41.0, 36.215191, 118.0, 29.0 ],
 													"text" : "poly-sampler"
 												}
 
@@ -8211,7 +8252,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 162.0, 42.0, 403.0, 20.0 ],
+													"patching_rect" : [ 162.0, 42.0, 403.0, 19.0 ],
 													"text" : "args <soundfile name> <voices 1-64>",
 													"textcolor" : [ 0.615686, 0.611765, 0.611765, 1.0 ]
 												}
@@ -8227,7 +8268,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 264.0, 294.325256, 89.0, 50.0 ],
+													"patching_rect" : [ 264.0, 294.325256, 89.0, 48.0 ],
 													"text" : "durch 'note' wird automatisch der busy-flag om poly  beachtet!",
 													"textcolor" : [ 0.533333, 0.533333, 0.533333, 1.0 ]
 												}
@@ -8242,7 +8283,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 373.0, 312.0, 83.0, 20.0 ],
+													"patching_rect" : [ 373.0, 312.0, 83.0, 19.0 ],
 													"text" : "keyNR, velocity"
 												}
 
@@ -8257,7 +8298,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 328.0, 75.0, 155.0, 21.0 ],
+													"patching_rect" : [ 328.0, 75.0, 155.0, 20.0 ],
 													"text" : "midi pitch (0-127) z.B. 60 "
 												}
 
@@ -8280,7 +8321,7 @@
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "int" ],
 													"patching_rect" : [ 355.0, 109.0, 25.0, 25.0 ]
 												}
 
@@ -8363,7 +8404,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 649.0, 150.423737, 50.0, 18.0 ],
+													"patching_rect" : [ 649.0, 150.423737, 50.0, 17.0 ],
 													"text" : "wclose"
 												}
 
@@ -9002,6 +9043,24 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-16", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -9283,6 +9342,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-49", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}

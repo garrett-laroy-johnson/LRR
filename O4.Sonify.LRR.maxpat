@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 232.0, 484.0, 315.0, 408.0 ],
+		"rect" : [ 100.0, 79.0, 315.0, 382.0 ],
 		"bgcolor" : [ 0.778745, 0.778745, 0.778745, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -279,7 +279,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 276.0, 167.0, 1024.0, 864.0 ],
+						"rect" : [ 508.0, 384.0, 1024.0, 864.0 ],
 						"bgcolor" : [ 0.935865, 0.935865, 0.935865, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -299,7 +299,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-31",
@@ -330,7 +329,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+										"rect" : [ 25.0, 69.0, 1548.0, 1007.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -350,6 +349,24 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 9.0,
+													"id" : "obj-1",
+													"linecount" : 2,
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 26.0, 319.0, 73.0, 25.0 ],
+													"presentation" : 1,
+													"presentation_linecount" : 3,
+													"presentation_rect" : [ 956.0, 642.0, 59.0, 35.0 ],
+													"text" : ";\ripod-all sfplay 0"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontname" : "Geneva",
 													"fontsize" : 8.444482,
@@ -4683,7 +4700,6 @@
 								"box" : 								{
 									"fontname" : "Geneva",
 									"fontsize" : 8.735174,
-									"hidden" : 1,
 									"id" : "obj-167",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
@@ -6693,7 +6709,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 572.0, 278.0, 1259.0, 906.0 ],
+						"rect" : [ 663.0, 399.0, 1259.0, 906.0 ],
 						"bgcolor" : [ 0.935865, 0.935865, 0.935865, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -6713,7 +6729,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -8002,7 +8017,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 549.0, 59.0, 401.0, 120.0 ],
+						"rect" : [ 440.0, 227.0, 401.0, 120.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -8021,7 +8036,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -8318,7 +8332,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 340.0, 168.0, 474.0, 298.0 ],
+						"rect" : [ 457.0, 233.0, 474.0, 298.0 ],
 						"bgcolor" : [ 0.883322, 0.883322, 0.883322, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -8338,7 +8352,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -8714,7 +8727,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 70.0, 408.0, 324.0, 400.0 ],
+						"rect" : [ 97.0, 496.0, 324.0, 400.0 ],
 						"bgcolor" : [ 0.884659, 0.884659, 0.884659, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -18772,17 +18785,17 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-14::obj-43::obj-48::obj-69" : [ "live.tab[8]", "live.tab", 0 ],
 			"obj-14::obj-43::obj-44::obj-69" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-7::obj-45" : [ "live.tab[11]", "live.tab[11]", 0 ],
 			"obj-14::obj-43::obj-45::obj-69" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-14::obj-14" : [ "live.tab[12]", "live.tab[12]", 0 ],
 			"obj-14::obj-43::obj-35::obj-69" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-14::obj-43::obj-47::obj-69" : [ "live.tab[6]", "live.tab", 0 ],
 			"obj-14::obj-43::obj-36::obj-69" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-14::obj-43::obj-34::obj-69" : [ "live.tab", "live.tab", 0 ],
 			"obj-14::obj-43::obj-51::obj-69" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-7::obj-45" : [ "live.tab[11]", "live.tab[11]", 0 ],
-			"obj-14::obj-14" : [ "live.tab[12]", "live.tab[12]", 0 ],
-			"obj-14::obj-43::obj-56::obj-69" : [ "live.tab[3]", "live.tab", 0 ]
+			"obj-14::obj-43::obj-34::obj-69" : [ "live.tab", "live.tab", 0 ],
+			"obj-14::obj-43::obj-56::obj-69" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-14::obj-43::obj-48::obj-69" : [ "live.tab[8]", "live.tab", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -19276,13 +19289,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o4.net_send.maxpat",
-				"bootpath" : "/Users/student/Desktop/Synthesis-master/O4_ASU/O4.net.ASU",
-				"patcherrelativepath" : "../Synthesis-master/O4_ASU/O4.net.ASU",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "jcom.remote.mxo",
 				"type" : "iLaX"
 			}
@@ -19436,26 +19442,6 @@
 			}
 , 			{
 				"name" : "o.atomize.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "zeroconf.service.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.collect.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.expr.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.pack.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "o.var.mxo",
 				"type" : "iLaX"
 			}
  ]
