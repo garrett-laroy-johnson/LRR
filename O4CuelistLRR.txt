@@ -8665,30 +8665,12 @@
  KEYCUE "LRR_tracking_above" 
  
  
- 	 	 	 	 /CONFIG /ipods 99 1 /Acc2 99 1 /Acc1 99 1 /rightarm 99 1 /rightfoot 99 1 /tummy 99 1 /head 99 1 /leftarm 99 1 /leftshoulder 99 1 /rightshouldar 99 1 /rightarm.1 99 1 /rightarm.2 99 1 /rightfoot.1 99 1 /tummy.1 99 1 /head.1 99 1 /leftarm.1 99 1 /leftshoulder.1 99 1 /rightshouldar.1 99 1 /rightarm.3 99 1 /CorpusDancer1 99 1 /CorpusDancer2 99 1 /kick.out 99 1 /cymbals.out 99 1 /snare.out 99 1 /speed 99 1 /delay 99 1 /amplitude 99 1 /trigger 99 1 /kick 99 1 /speed.1 99 1 /delay.1 99 1 /amplitude.1 99 1 /trigger.1 99 1 /cymbals 99 1 /speed.2 99 1 /delay.2 99 1 /amplitude.2 99 1 /trigger.2 99 1 /snare 99 1 /waterOut 99 1 /water 99 1 /crisp1Out 99 1 /crisp1 99 1 /highSusOut 99 1 /highSus1 99 1 /myUes 99 1 /brcosa% 99 1 /orsize% 99 1 /input% 99 1 /motion% 99 1 /centerX 99 1 /centerY 99 1 /all-fixed 99 1 /height 99 1 /area 99 1 /width 99 1 /all 99 1 /large 99 1 /small 99 1 /bcf2000 99 1 /subWoof 99 1 /sources 99 1 /ambicontrol 99 1 /PVout 99 1 /eaCrumOut 99 1 /PVSpectral 99 1 /EaCrum 99 1 /lowVarOut 99 1 /lowSus1 99 1 /winderOut 99 1 /winder 99 1 /ED-rogs-3 99 1 /ED-rogs-2 99 1 /ED-rogs-1 99 1 /glitchOut 99 1 /glitch 99 1 /pant2Out 99 1 /scratch 99 1 /pant1Out 99 1 /glass 99 1 /sf-bozzi2 99 1 /Glass-output~ 99 1 /sf-bozzi1 99 1 
+ 	 	 	 	 /CONFIG /rightarm 99 1 /rightfoot 99 1 /tummy 99 1 /head 99 1 /leftarm 99 1 /leftshoulder 99 1 /rightshouldar 99 1 /rightarm.1 99 1 /rightarm.2 99 1 /rightfoot.1 99 1 /tummy.1 99 1 /head.1 99 1 /leftarm.1 99 1 /leftshoulder.1 99 1 /rightshouldar.1 99 1 /rightarm.3 99 1 /CorpusDancer1 99 1 /CorpusDancer2 99 1 /kick.out 99 1 /cymbals.out 99 1 /snare.out 99 1 /waterOut 99 1 /water 99 1 /crisp1Out 99 1 /crisp1 99 1 /highSusOut 99 1 /highSus1 99 1 /myUes 99 1 /brcosa% 99 1 /orsize% 99 1 /input% 99 1 /motion% 99 1 /centerX 99 1 /centerY 99 1 /all-fixed 99 1 /height 99 1 /area 99 1 /width 99 1 /all 99 1 /large 99 1 /small 99 1 /bcf2000 99 1 /subWoof 99 1 /sources 99 1 /ambicontrol 99 1 /PVout 99 1 /eaCrumOut 99 1 /PVSpectral 99 1 /EaCrum 99 1 /lowVarOut 99 1 /lowSus1 99 1 /winderOut 99 1 /winder 99 1 /ED-rogs-3 99 1 /ED-rogs-2 99 1 /ED-rogs-1 99 1 /glitchOut 99 1 /glitch 99 1 /pant2Out 99 1 /scratch 99 1 /pant1Out 99 1 /glass 99 1 /sf-bozzi2 99 1 /Glass-output~ 99 1 /sf-bozzi1 99 1 /jmod.syn.imu 99 1 /jmod.syn.imu.1 99 1 /jmod.syn.imu.2 99 1 /jmod.syn.imu.3 99 1 /jmod.syn.imu.4 99 1 /jmod.syn.imu.5 99 1 /jmod.syn.imu.6 99 1 /jmod.syn.imu.7 99 1 /LRR 99 1 
  	 	 	 	 /AUTOFOLLOW 0 
  # 
  ######################## 
  # 
- # Module /ipods 
- 	 	 	 	 /ipods/PORT_RCV 5001 
- 	 	 	 	 /ipods/view/freeze 0 
- 	 	 	 	 /ipods/view/highlight 0 
- # 
- # Module /Acc2 
- 	 	 	 	 /Acc2/a_bang 0 
- 	 	 	 	 /Acc2/PORT_RCV 2005 
- 	 	 	 	 /Acc2/view/freeze 0 
- 	 	 	 	 /Acc2/view/highlight 0 
- # 
- # Module /Acc1 
- 	 	 	 	 /Acc1/a_bang 0 
- 	 	 	 	 /Acc1/PORT_RCV 2001 
- 	 	 	 	 /Acc1/view/freeze 0 
- 	 	 	 	 /Acc1/view/highlight 0 
- # 
  # Module /rightarm 
- 	 	 	 	 /rightarm/alias /rightarm/alias/remove 
  	 	 	 	 /rightarm/in/module/name /Acc2 
  	 	 	 	 /rightarm/in/module/instance 0 
  	 	 	 	 /rightarm/function linear 
@@ -8737,7 +8719,6 @@
  	 	 	 	 /rightfoot/view/freeze 0 
  # 
  # Module /tummy 
- 	 	 	 	 /tummy/alias /tummy/alias/remove 
  	 	 	 	 /tummy/in/module/name /Acc2 
  	 	 	 	 /tummy/in/module/instance 0 
  	 	 	 	 /tummy/function linear 
@@ -8810,6 +8791,7 @@
  	 	 	 	 /leftarm/view/freeze 0 
  # 
  # Module /leftshoulder 
+ 	 	 	 	 /leftshoulder/alias /leftshoulder/alias/remove 
  	 	 	 	 /leftshoulder/in/module/name /Acc2 
  	 	 	 	 /leftshoulder/in/module/instance 0 
  	 	 	 	 /leftshoulder/function linear 
@@ -8858,7 +8840,6 @@
  	 	 	 	 /rightshouldar/view/freeze 0 
  # 
  # Module /rightarm.1 
- 	 	 	 	 /rightarm.1/alias /rightarm.1/alias/remove 
  	 	 	 	 /rightarm.1/in/module/name /Acc2 
  	 	 	 	 /rightarm.1/in/module/instance 0 
  	 	 	 	 /rightarm.1/function linear 
@@ -8883,14 +8864,13 @@
  	 	 	 	 /rightarm.1/view/freeze 0 
  # 
  # Module /rightarm.2 
- 	 	 	 	 /rightarm.2/alias /rightarm.2/alias/remove 
- 	 	 	 	 /rightarm.2/in/module/name /Acc1 
+ 	 	 	 	 /rightarm.2/in/module/name /all 
  	 	 	 	 /rightarm.2/in/module/instance 0 
  	 	 	 	 /rightarm.2/function linear 
  	 	 	 	 /rightarm.2/function/symmetry 0 
  	 	 	 	 /rightarm.2/function/parameter2 0.000000 
  	 	 	 	 /rightarm.2/function/parameter1 0.000000 
- 	 	 	 	 /rightarm.2/in/module/parameter /ACCX 
+ 	 	 	 	 /rightarm.2/in/module/parameter /out/final 
  	 	 	 	 /rightarm.2/clip 0 
  	 	 	 	 /rightarm.2/in/direct 0 
  	 	 	 	 /rightarm.2/in/module/listindex 1 
@@ -8908,13 +8888,14 @@
  	 	 	 	 /rightarm.2/view/freeze 0 
  # 
  # Module /rightfoot.1 
- 	 	 	 	 /rightfoot.1/in/module/name /Acc1 
+ 	 	 	 	 /rightfoot.1/alias /rightfoot.1/alias/remove 
+ 	 	 	 	 /rightfoot.1/in/module/name /all 
  	 	 	 	 /rightfoot.1/in/module/instance 0 
  	 	 	 	 /rightfoot.1/function linear 
  	 	 	 	 /rightfoot.1/function/symmetry 0 
  	 	 	 	 /rightfoot.1/function/parameter2 0.000000 
  	 	 	 	 /rightfoot.1/function/parameter1 0.000000 
- 	 	 	 	 /rightfoot.1/in/module/parameter /ACCY 
+ 	 	 	 	 /rightfoot.1/in/module/parameter /out/final 
  	 	 	 	 /rightfoot.1/clip 0 
  	 	 	 	 /rightfoot.1/in/direct 0 
  	 	 	 	 /rightfoot.1/in/module/listindex 1 
@@ -8932,13 +8913,13 @@
  	 	 	 	 /rightfoot.1/view/freeze 0 
  # 
  # Module /tummy.1 
- 	 	 	 	 /tummy.1/in/module/name /Acc1 
+ 	 	 	 	 /tummy.1/in/module/name /large 
  	 	 	 	 /tummy.1/in/module/instance 0 
  	 	 	 	 /tummy.1/function linear 
  	 	 	 	 /tummy.1/function/symmetry 0 
  	 	 	 	 /tummy.1/function/parameter2 0.000000 
  	 	 	 	 /tummy.1/function/parameter1 0.000000 
- 	 	 	 	 /tummy.1/in/module/parameter /ACCY 
+ 	 	 	 	 /tummy.1/in/module/parameter /out/final 
  	 	 	 	 /tummy.1/clip 0 
  	 	 	 	 /tummy.1/in/direct 0 
  	 	 	 	 /tummy.1/in/module/listindex 1 
@@ -8956,13 +8937,14 @@
  	 	 	 	 /tummy.1/view/freeze 0 
  # 
  # Module /head.1 
- 	 	 	 	 /head.1/in/module/name /Acc1 
+ 	 	 	 	 /head.1/alias /head.1/alias/remove 
+ 	 	 	 	 /head.1/in/module/name /small 
  	 	 	 	 /head.1/in/module/instance 0 
  	 	 	 	 /head.1/function linear 
  	 	 	 	 /head.1/function/symmetry 0 
  	 	 	 	 /head.1/function/parameter2 0.000000 
  	 	 	 	 /head.1/function/parameter1 0.000000 
- 	 	 	 	 /head.1/in/module/parameter /ACCX 
+ 	 	 	 	 /head.1/in/module/parameter /out/final 
  	 	 	 	 /head.1/clip 0 
  	 	 	 	 /head.1/in/direct 0 
  	 	 	 	 /head.1/in/module/listindex 1 
@@ -8980,13 +8962,13 @@
  	 	 	 	 /head.1/view/freeze 0 
  # 
  # Module /leftarm.1 
- 	 	 	 	 /leftarm.1/in/module/name /Acc1 
+ 	 	 	 	 /leftarm.1/in/module/name /all 
  	 	 	 	 /leftarm.1/in/module/instance 0 
  	 	 	 	 /leftarm.1/function linear 
  	 	 	 	 /leftarm.1/function/symmetry 0 
  	 	 	 	 /leftarm.1/function/parameter2 0.000000 
  	 	 	 	 /leftarm.1/function/parameter1 0.000000 
- 	 	 	 	 /leftarm.1/in/module/parameter /ACCX 
+ 	 	 	 	 /leftarm.1/in/module/parameter /out/final 
  	 	 	 	 /leftarm.1/clip 0 
  	 	 	 	 /leftarm.1/in/direct 0 
  	 	 	 	 /leftarm.1/in/module/listindex 1 
@@ -9004,13 +8986,13 @@
  	 	 	 	 /leftarm.1/view/freeze 0 
  # 
  # Module /leftshoulder.1 
- 	 	 	 	 /leftshoulder.1/in/module/name /Acc1 
+ 	 	 	 	 /leftshoulder.1/in/module/name /small 
  	 	 	 	 /leftshoulder.1/in/module/instance 0 
  	 	 	 	 /leftshoulder.1/function linear 
  	 	 	 	 /leftshoulder.1/function/symmetry 0 
  	 	 	 	 /leftshoulder.1/function/parameter2 0.000000 
  	 	 	 	 /leftshoulder.1/function/parameter1 0.000000 
- 	 	 	 	 /leftshoulder.1/in/module/parameter /ACCY 
+ 	 	 	 	 /leftshoulder.1/in/module/parameter /out/final 
  	 	 	 	 /leftshoulder.1/clip 0 
  	 	 	 	 /leftshoulder.1/in/direct 0 
  	 	 	 	 /leftshoulder.1/in/module/listindex 1 
@@ -9028,13 +9010,13 @@
  	 	 	 	 /leftshoulder.1/view/freeze 0 
  # 
  # Module /rightshouldar.1 
- 	 	 	 	 /rightshouldar.1/in/module/name /Acc1 
+ 	 	 	 	 /rightshouldar.1/in/module/name /all 
  	 	 	 	 /rightshouldar.1/in/module/instance 0 
  	 	 	 	 /rightshouldar.1/function linear 
  	 	 	 	 /rightshouldar.1/function/symmetry 0 
  	 	 	 	 /rightshouldar.1/function/parameter2 0.000000 
  	 	 	 	 /rightshouldar.1/function/parameter1 0.000000 
- 	 	 	 	 /rightshouldar.1/in/module/parameter /ACCY 
+ 	 	 	 	 /rightshouldar.1/in/module/parameter /out/final 
  	 	 	 	 /rightshouldar.1/clip 0 
  	 	 	 	 /rightshouldar.1/in/direct 0 
  	 	 	 	 /rightshouldar.1/in/module/listindex 1 
@@ -9052,13 +9034,13 @@
  	 	 	 	 /rightshouldar.1/view/freeze 0 
  # 
  # Module /rightarm.3 
- 	 	 	 	 /rightarm.3/in/module/name /Acc1 
+ 	 	 	 	 /rightarm.3/in/module/name /small 
  	 	 	 	 /rightarm.3/in/module/instance 0 
  	 	 	 	 /rightarm.3/function linear 
  	 	 	 	 /rightarm.3/function/symmetry 0 
  	 	 	 	 /rightarm.3/function/parameter2 0.000000 
  	 	 	 	 /rightarm.3/function/parameter1 0.000000 
- 	 	 	 	 /rightarm.3/in/module/parameter /ACCX 
+ 	 	 	 	 /rightarm.3/in/module/parameter /out/final 
  	 	 	 	 /rightarm.3/clip 0 
  	 	 	 	 /rightarm.3/in/direct 0 
  	 	 	 	 /rightarm.3/in/module/listindex 1 
@@ -9076,9 +9058,9 @@
  	 	 	 	 /rightarm.3/view/freeze 0 
  # 
  # Module /CorpusDancer1 
- 	 	 	 	 /CorpusDancer1/audio/active 0 
- 	 	 	 	 /CorpusDancer1/audio/gain 0.000000 
- 	 	 	 	 /CorpusDancer1/audio/mute 1 
+ 	 	 	 	 /CorpusDancer1/audio/active 1 
+ 	 	 	 	 /CorpusDancer1/audio/gain 70.000000 
+ 	 	 	 	 /CorpusDancer1/audio/mute 0 
  	 	 	 	 /CorpusDancer1/limiter/active 1 
  	 	 	 	 /CorpusDancer1/limiter/dcblocker/active 1 
  	 	 	 	 /CorpusDancer1/limiter/lookahead 64 
@@ -9096,9 +9078,9 @@
  	 	 	 	 /CorpusDancer1/view/highlight 0 
  # 
  # Module /CorpusDancer2 
- 	 	 	 	 /CorpusDancer2/audio/active 0 
- 	 	 	 	 /CorpusDancer2/audio/gain 0.000000 
- 	 	 	 	 /CorpusDancer2/audio/mute 1 
+ 	 	 	 	 /CorpusDancer2/audio/active 1 
+ 	 	 	 	 /CorpusDancer2/audio/gain 70.000000 
+ 	 	 	 	 /CorpusDancer2/audio/mute 0 
  	 	 	 	 /CorpusDancer2/limiter/active 1 
  	 	 	 	 /CorpusDancer2/limiter/dcblocker/active 1 
  	 	 	 	 /CorpusDancer2/limiter/lookahead 64 
@@ -9116,7 +9098,8 @@
  	 	 	 	 /CorpusDancer2/view/highlight 0 
  # 
  # Module /kick.out 
- 	 	 	 	 /kick.out/audio/active 0 
+ 	 	 	 	 /kick.out/alias /kick.out/alias/remove 
+ 	 	 	 	 /kick.out/audio/active 1 
  	 	 	 	 /kick.out/audio/gain 0.000000 
  	 	 	 	 /kick.out/audio/mute 1 
  	 	 	 	 /kick.out/limiter/active 1 
@@ -9136,7 +9119,7 @@
  	 	 	 	 /kick.out/view/highlight 0 
  # 
  # Module /cymbals.out 
- 	 	 	 	 /cymbals.out/audio/active 0 
+ 	 	 	 	 /cymbals.out/audio/active 1 
  	 	 	 	 /cymbals.out/audio/gain 0.000000 
  	 	 	 	 /cymbals.out/audio/mute 1 
  	 	 	 	 /cymbals.out/limiter/active 1 
@@ -9156,7 +9139,7 @@
  	 	 	 	 /cymbals.out/view/highlight 0 
  # 
  # Module /snare.out 
- 	 	 	 	 /snare.out/audio/active 0 
+ 	 	 	 	 /snare.out/audio/active 1 
  	 	 	 	 /snare.out/audio/gain 0.000000 
  	 	 	 	 /snare.out/audio/mute 1 
  	 	 	 	 /snare.out/limiter/active 1 
@@ -9175,339 +9158,8 @@
  	 	 	 	 /snare.out/view/freeze 0 
  	 	 	 	 /snare.out/view/highlight 0 
  # 
- # Module /speed 
- 	 	 	 	 /speed/in/module/name /Acc2 
- 	 	 	 	 /speed/in/module/instance 0 
- 	 	 	 	 /speed/function linear 
- 	 	 	 	 /speed/function/symmetry 0 
- 	 	 	 	 /speed/function/parameter2 0.000000 
- 	 	 	 	 /speed/function/parameter1 0.000000 
- 	 	 	 	 /speed/in/module/parameter /ACCY 
- 	 	 	 	 /speed/clip 0 
- 	 	 	 	 /speed/in/direct 0 
- 	 	 	 	 /speed/in/module/listindex 1 
- 	 	 	 	 /speed/mute 0 
- 	 	 	 	 /speed/offset 0.000000 
- 	 	 	 	 /speed/ramp/time 0 
- 	 	 	 	 /speed/scale/bypass 1 
- 	 	 	 	 /speed/scale/input/max 1.000000 
- 	 	 	 	 /speed/scale/input/min 0.000000 
- 	 	 	 	 /speed/scale/max 1.000000 
- 	 	 	 	 /speed/scale/min 0.000000 
- 	 	 	 	 /speed/scale/mode 0 
- 	 	 	 	 /speed/slide/down 0 
- 	 	 	 	 /speed/slide/up 0 
- 	 	 	 	 /speed/view/freeze 0 
- # 
- # Module /delay 
- 	 	 	 	 /delay/in/module/name /Acc2 
- 	 	 	 	 /delay/in/module/instance 0 
- 	 	 	 	 /delay/function linear 
- 	 	 	 	 /delay/function/symmetry 0 
- 	 	 	 	 /delay/function/parameter2 0.000000 
- 	 	 	 	 /delay/function/parameter1 0.000000 
- 	 	 	 	 /delay/in/module/parameter /GYROX 
- 	 	 	 	 /delay/clip 0 
- 	 	 	 	 /delay/in/direct 0 
- 	 	 	 	 /delay/in/module/listindex 1 
- 	 	 	 	 /delay/mute 0 
- 	 	 	 	 /delay/offset 0.000000 
- 	 	 	 	 /delay/ramp/time 0 
- 	 	 	 	 /delay/scale/bypass 1 
- 	 	 	 	 /delay/scale/input/max 1.000000 
- 	 	 	 	 /delay/scale/input/min 0.000000 
- 	 	 	 	 /delay/scale/max 1.000000 
- 	 	 	 	 /delay/scale/min 0.000000 
- 	 	 	 	 /delay/scale/mode 0 
- 	 	 	 	 /delay/slide/down 0 
- 	 	 	 	 /delay/slide/up 0 
- 	 	 	 	 /delay/view/freeze 0 
- # 
- # Module /amplitude 
- 	 	 	 	 /amplitude/alias /amplitude/alias/remove 
- 	 	 	 	 /amplitude/in/module/name /Acc2 
- 	 	 	 	 /amplitude/in/module/instance 0 
- 	 	 	 	 /amplitude/function linear 
- 	 	 	 	 /amplitude/function/symmetry 0 
- 	 	 	 	 /amplitude/function/parameter2 0.000000 
- 	 	 	 	 /amplitude/function/parameter1 0.000000 
- 	 	 	 	 /amplitude/in/module/parameter /ACCZ 
- 	 	 	 	 /amplitude/clip 0 
- 	 	 	 	 /amplitude/in/direct 0 
- 	 	 	 	 /amplitude/in/module/listindex 1 
- 	 	 	 	 /amplitude/mute 0 
- 	 	 	 	 /amplitude/offset 0.000000 
- 	 	 	 	 /amplitude/ramp/time 0 
- 	 	 	 	 /amplitude/scale/bypass 1 
- 	 	 	 	 /amplitude/scale/input/max 1.000000 
- 	 	 	 	 /amplitude/scale/input/min 0.000000 
- 	 	 	 	 /amplitude/scale/max 1.000000 
- 	 	 	 	 /amplitude/scale/min 0.000000 
- 	 	 	 	 /amplitude/scale/mode 0 
- 	 	 	 	 /amplitude/slide/down 0 
- 	 	 	 	 /amplitude/slide/up 0 
- 	 	 	 	 /amplitude/view/freeze 0 
- # 
- # Module /trigger 
- 	 	 	 	 /trigger/in/module/name /Acc2 
- 	 	 	 	 /trigger/in/module/instance 0 
- 	 	 	 	 /trigger/function linear 
- 	 	 	 	 /trigger/function/symmetry 0 
- 	 	 	 	 /trigger/function/parameter2 0.000000 
- 	 	 	 	 /trigger/function/parameter1 0.000000 
- 	 	 	 	 /trigger/in/module/parameter /ACCX 
- 	 	 	 	 /trigger/clip 0 
- 	 	 	 	 /trigger/in/direct 0 
- 	 	 	 	 /trigger/in/module/listindex 1 
- 	 	 	 	 /trigger/mute 0 
- 	 	 	 	 /trigger/offset 0.000000 
- 	 	 	 	 /trigger/ramp/time 0 
- 	 	 	 	 /trigger/scale/bypass 1 
- 	 	 	 	 /trigger/scale/input/max 1.000000 
- 	 	 	 	 /trigger/scale/input/min 0.000000 
- 	 	 	 	 /trigger/scale/max 1.000000 
- 	 	 	 	 /trigger/scale/min 0.000000 
- 	 	 	 	 /trigger/scale/mode 0 
- 	 	 	 	 /trigger/slide/down 0 
- 	 	 	 	 /trigger/slide/up 0 
- 	 	 	 	 /trigger/view/freeze 0 
- # 
- # Module /kick 
- 	 	 	 	 /kick/audio/bypass 0 
- 	 	 	 	 /kick/audio/gain 56.000000 
- 	 	 	 	 /kick/audio/mix 0.000000 
- 	 	 	 	 /kick/audio/mute 0 
- 	 	 	 	 /kick/max_delay 200.000000 
- 	 	 	 	 /kick/min_delay 0.000000 
- 	 	 	 	 /kick/min_speed 0.200000 
- 	 	 	 	 /kick/playback_driver local 
- 	 	 	 	 /kick/port 0 
- 	 	 	 	 /kick/threshhold 0.000000 
- 	 	 	 	 /kick/view/freeze 0 
- 	 	 	 	 /kick/view/highlight 0 
- # 
- # Module /speed.1 
- 	 	 	 	 /speed.1/in/module/name /Acc1 
- 	 	 	 	 /speed.1/in/module/instance 1 
- 	 	 	 	 /speed.1/function linear 
- 	 	 	 	 /speed.1/function/symmetry 0 
- 	 	 	 	 /speed.1/function/parameter2 0.000000 
- 	 	 	 	 /speed.1/function/parameter1 0.000000 
- 	 	 	 	 /speed.1/in/module/parameter /ACCY 
- 	 	 	 	 /speed.1/clip 0 
- 	 	 	 	 /speed.1/in/direct 0 
- 	 	 	 	 /speed.1/in/module/listindex 1 
- 	 	 	 	 /speed.1/mute 1 
- 	 	 	 	 /speed.1/offset 0.000000 
- 	 	 	 	 /speed.1/ramp/time 0 
- 	 	 	 	 /speed.1/scale/bypass 1 
- 	 	 	 	 /speed.1/scale/input/max 1.000000 
- 	 	 	 	 /speed.1/scale/input/min 0.000000 
- 	 	 	 	 /speed.1/scale/max 1.000000 
- 	 	 	 	 /speed.1/scale/min 0.000000 
- 	 	 	 	 /speed.1/scale/mode 0 
- 	 	 	 	 /speed.1/slide/down 0 
- 	 	 	 	 /speed.1/slide/up 0 
- 	 	 	 	 /speed.1/view/freeze 0 
- # 
- # Module /delay.1 
- 	 	 	 	 /delay.1/in/module/name /Acc1 
- 	 	 	 	 /delay.1/in/module/instance 0 
- 	 	 	 	 /delay.1/function linear 
- 	 	 	 	 /delay.1/function/symmetry 0 
- 	 	 	 	 /delay.1/function/parameter2 0.000000 
- 	 	 	 	 /delay.1/function/parameter1 0.000000 
- 	 	 	 	 /delay.1/in/module/parameter /ACCZ 
- 	 	 	 	 /delay.1/clip 0 
- 	 	 	 	 /delay.1/in/direct 0 
- 	 	 	 	 /delay.1/in/module/listindex 1 
- 	 	 	 	 /delay.1/mute 1 
- 	 	 	 	 /delay.1/offset 0.000000 
- 	 	 	 	 /delay.1/ramp/time 0 
- 	 	 	 	 /delay.1/scale/bypass 1 
- 	 	 	 	 /delay.1/scale/input/max 1.000000 
- 	 	 	 	 /delay.1/scale/input/min 0.000000 
- 	 	 	 	 /delay.1/scale/max 1.000000 
- 	 	 	 	 /delay.1/scale/min 0.000000 
- 	 	 	 	 /delay.1/scale/mode 0 
- 	 	 	 	 /delay.1/slide/down 0 
- 	 	 	 	 /delay.1/slide/up 0 
- 	 	 	 	 /delay.1/view/freeze 0 
- # 
- # Module /amplitude.1 
- 	 	 	 	 /amplitude.1/in/module/name /Acc1 
- 	 	 	 	 /amplitude.1/in/module/instance 1 
- 	 	 	 	 /amplitude.1/function linear 
- 	 	 	 	 /amplitude.1/function/symmetry 0 
- 	 	 	 	 /amplitude.1/function/parameter2 0.000000 
- 	 	 	 	 /amplitude.1/function/parameter1 0.000000 
- 	 	 	 	 /amplitude.1/in/module/parameter /ACCZ 
- 	 	 	 	 /amplitude.1/clip 0 
- 	 	 	 	 /amplitude.1/in/direct 0 
- 	 	 	 	 /amplitude.1/in/module/listindex 1 
- 	 	 	 	 /amplitude.1/mute 1 
- 	 	 	 	 /amplitude.1/offset 0.000000 
- 	 	 	 	 /amplitude.1/ramp/time 0 
- 	 	 	 	 /amplitude.1/scale/bypass 1 
- 	 	 	 	 /amplitude.1/scale/input/max 1.000000 
- 	 	 	 	 /amplitude.1/scale/input/min 0.000000 
- 	 	 	 	 /amplitude.1/scale/max 1.000000 
- 	 	 	 	 /amplitude.1/scale/min 0.000000 
- 	 	 	 	 /amplitude.1/scale/mode 0 
- 	 	 	 	 /amplitude.1/slide/down 0 
- 	 	 	 	 /amplitude.1/slide/up 0 
- 	 	 	 	 /amplitude.1/view/freeze 0 
- # 
- # Module /trigger.1 
- 	 	 	 	 /trigger.1/in/module/name /Acc1 
- 	 	 	 	 /trigger.1/in/module/instance 1 
- 	 	 	 	 /trigger.1/function linear 
- 	 	 	 	 /trigger.1/function/symmetry 0 
- 	 	 	 	 /trigger.1/function/parameter2 0.000000 
- 	 	 	 	 /trigger.1/function/parameter1 0.000000 
- 	 	 	 	 /trigger.1/in/module/parameter /ACCY 
- 	 	 	 	 /trigger.1/clip 0 
- 	 	 	 	 /trigger.1/in/direct 0 
- 	 	 	 	 /trigger.1/in/module/listindex 1 
- 	 	 	 	 /trigger.1/mute 1 
- 	 	 	 	 /trigger.1/offset 0.000000 
- 	 	 	 	 /trigger.1/ramp/time 0 
- 	 	 	 	 /trigger.1/scale/bypass 1 
- 	 	 	 	 /trigger.1/scale/input/max 1.000000 
- 	 	 	 	 /trigger.1/scale/input/min 0.000000 
- 	 	 	 	 /trigger.1/scale/max 1.000000 
- 	 	 	 	 /trigger.1/scale/min 0.000000 
- 	 	 	 	 /trigger.1/scale/mode 0 
- 	 	 	 	 /trigger.1/slide/down 0 
- 	 	 	 	 /trigger.1/slide/up 5 
- 	 	 	 	 /trigger.1/view/freeze 0 
- # 
- # Module /cymbals 
- 	 	 	 	 /cymbals/audio/bypass 0 
- 	 	 	 	 /cymbals/audio/gain 72.000000 
- 	 	 	 	 /cymbals/audio/mix 0.000000 
- 	 	 	 	 /cymbals/audio/mute 0 
- 	 	 	 	 /cymbals/max_delay 288.000000 
- 	 	 	 	 /cymbals/min_delay 0.000000 
- 	 	 	 	 /cymbals/min_speed 0.200000 
- 	 	 	 	 /cymbals/playback_driver local 
- 	 	 	 	 /cymbals/port 0 
- 	 	 	 	 /cymbals/threshhold 0.300000 
- 	 	 	 	 /cymbals/view/freeze 0 
- 	 	 	 	 /cymbals/view/highlight 0 
- # 
- # Module /speed.2 
- 	 	 	 	 /speed.2/in/module/name /Acc1 
- 	 	 	 	 /speed.2/in/module/instance 1 
- 	 	 	 	 /speed.2/function linear 
- 	 	 	 	 /speed.2/function/symmetry 0 
- 	 	 	 	 /speed.2/function/parameter2 0.000000 
- 	 	 	 	 /speed.2/function/parameter1 0.000000 
- 	 	 	 	 /speed.2/in/module/parameter /ACCX 
- 	 	 	 	 /speed.2/clip 0 
- 	 	 	 	 /speed.2/in/direct 0 
- 	 	 	 	 /speed.2/in/module/listindex 1 
- 	 	 	 	 /speed.2/mute 0 
- 	 	 	 	 /speed.2/offset 0.000000 
- 	 	 	 	 /speed.2/ramp/time 0 
- 	 	 	 	 /speed.2/scale/bypass 1 
- 	 	 	 	 /speed.2/scale/input/max 1.000000 
- 	 	 	 	 /speed.2/scale/input/min 0.000000 
- 	 	 	 	 /speed.2/scale/max 1.000000 
- 	 	 	 	 /speed.2/scale/min 0.000000 
- 	 	 	 	 /speed.2/scale/mode 0 
- 	 	 	 	 /speed.2/slide/down 0 
- 	 	 	 	 /speed.2/slide/up 0 
- 	 	 	 	 /speed.2/view/freeze 0 
- # 
- # Module /delay.2 
- 	 	 	 	 /delay.2/in/module/name /Acc1 
- 	 	 	 	 /delay.2/in/module/instance 1 
- 	 	 	 	 /delay.2/function linear 
- 	 	 	 	 /delay.2/function/symmetry 0 
- 	 	 	 	 /delay.2/function/parameter2 0.000000 
- 	 	 	 	 /delay.2/function/parameter1 0.000000 
- 	 	 	 	 /delay.2/in/module/parameter /ACCZ 
- 	 	 	 	 /delay.2/clip 0 
- 	 	 	 	 /delay.2/in/direct 0 
- 	 	 	 	 /delay.2/in/module/listindex 1 
- 	 	 	 	 /delay.2/mute 0 
- 	 	 	 	 /delay.2/offset 0.000000 
- 	 	 	 	 /delay.2/ramp/time 0 
- 	 	 	 	 /delay.2/scale/bypass 1 
- 	 	 	 	 /delay.2/scale/input/max 1.000000 
- 	 	 	 	 /delay.2/scale/input/min 0.000000 
- 	 	 	 	 /delay.2/scale/max 1.000000 
- 	 	 	 	 /delay.2/scale/min 0.000000 
- 	 	 	 	 /delay.2/scale/mode 0 
- 	 	 	 	 /delay.2/slide/down 0 
- 	 	 	 	 /delay.2/slide/up 0 
- 	 	 	 	 /delay.2/view/freeze 0 
- # 
- # Module /amplitude.2 
- 	 	 	 	 /amplitude.2/in/module/name /Acc1 
- 	 	 	 	 /amplitude.2/in/module/instance 1 
- 	 	 	 	 /amplitude.2/function linear 
- 	 	 	 	 /amplitude.2/function/symmetry 0 
- 	 	 	 	 /amplitude.2/function/parameter2 0.000000 
- 	 	 	 	 /amplitude.2/function/parameter1 0.000000 
- 	 	 	 	 /amplitude.2/in/module/parameter /ACCZ 
- 	 	 	 	 /amplitude.2/clip 0 
- 	 	 	 	 /amplitude.2/in/direct 0 
- 	 	 	 	 /amplitude.2/in/module/listindex 1 
- 	 	 	 	 /amplitude.2/mute 0 
- 	 	 	 	 /amplitude.2/offset 0.000000 
- 	 	 	 	 /amplitude.2/ramp/time 0 
- 	 	 	 	 /amplitude.2/scale/bypass 1 
- 	 	 	 	 /amplitude.2/scale/input/max 1.000000 
- 	 	 	 	 /amplitude.2/scale/input/min 0.000000 
- 	 	 	 	 /amplitude.2/scale/max 1.000000 
- 	 	 	 	 /amplitude.2/scale/min 0.000000 
- 	 	 	 	 /amplitude.2/scale/mode 0 
- 	 	 	 	 /amplitude.2/slide/down 0 
- 	 	 	 	 /amplitude.2/slide/up 0 
- 	 	 	 	 /amplitude.2/view/freeze 0 
- # 
- # Module /trigger.2 
- 	 	 	 	 /trigger.2/in/module/name /Acc1 
- 	 	 	 	 /trigger.2/in/module/instance 1 
- 	 	 	 	 /trigger.2/function linear 
- 	 	 	 	 /trigger.2/function/symmetry 0 
- 	 	 	 	 /trigger.2/function/parameter2 0.000000 
- 	 	 	 	 /trigger.2/function/parameter1 0.000000 
- 	 	 	 	 /trigger.2/in/module/parameter /ACCX 
- 	 	 	 	 /trigger.2/clip 0 
- 	 	 	 	 /trigger.2/in/direct 0 
- 	 	 	 	 /trigger.2/in/module/listindex 1 
- 	 	 	 	 /trigger.2/mute 0 
- 	 	 	 	 /trigger.2/offset 0.000000 
- 	 	 	 	 /trigger.2/ramp/time 0 
- 	 	 	 	 /trigger.2/scale/bypass 1 
- 	 	 	 	 /trigger.2/scale/input/max 1.000000 
- 	 	 	 	 /trigger.2/scale/input/min 0.000000 
- 	 	 	 	 /trigger.2/scale/max 1.000000 
- 	 	 	 	 /trigger.2/scale/min 0.000000 
- 	 	 	 	 /trigger.2/scale/mode 0 
- 	 	 	 	 /trigger.2/slide/down 0 
- 	 	 	 	 /trigger.2/slide/up 0 
- 	 	 	 	 /trigger.2/view/freeze 0 
- # 
- # Module /snare 
- 	 	 	 	 /snare/audio/bypass 0 
- 	 	 	 	 /snare/audio/gain 27.000000 
- 	 	 	 	 /snare/audio/mix 0.000000 
- 	 	 	 	 /snare/audio/mute 0 
- 	 	 	 	 /snare/max_delay 200.000000 
- 	 	 	 	 /snare/min_delay 0.000000 
- 	 	 	 	 /snare/min_speed 1.000000 
- 	 	 	 	 /snare/playback_driver local 
- 	 	 	 	 /snare/port 0 
- 	 	 	 	 /snare/threshhold 0.300000 
- 	 	 	 	 /snare/view/freeze 0 
- 	 	 	 	 /snare/view/highlight 0 
- # 
  # Module /waterOut 
- 	 	 	 	 /waterOut/audio/active 0 
+ 	 	 	 	 /waterOut/audio/active 1 
  	 	 	 	 /waterOut/audio/gain 0.000000 
  	 	 	 	 /waterOut/audio/mute 1 
  	 	 	 	 /waterOut/limiter/active 1 
@@ -9734,7 +9386,7 @@
  	 	 	 	 /water/view/highlight 0 
  # 
  # Module /crisp1Out 
- 	 	 	 	 /crisp1Out/audio/active 0 
+ 	 	 	 	 /crisp1Out/audio/active 1 
  	 	 	 	 /crisp1Out/audio/gain 0.000000 
  	 	 	 	 /crisp1Out/audio/mute 1 
  	 	 	 	 /crisp1Out/limiter/active 1 
@@ -9961,7 +9613,7 @@
  	 	 	 	 /crisp1/view/highlight 0 
  # 
  # Module /highSusOut 
- 	 	 	 	 /highSusOut/audio/active 0 
+ 	 	 	 	 /highSusOut/audio/active 1 
  	 	 	 	 /highSusOut/audio/gain 0.000000 
  	 	 	 	 /highSusOut/audio/mute 1 
  	 	 	 	 /highSusOut/limiter/active 1 
@@ -10342,7 +9994,6 @@
  	 	 	 	 /centerY/visualize 1 
  # 
  # Module /all-fixed 
- 	 	 	 	 /all-fixed/alias /all-fixed/alias/remove 
  	 	 	 	 /all-fixed/function 0 
  	 	 	 	 /all-fixed/function/symmetry 0 
  	 	 	 	 /all-fixed/function/parameter2 0.000000 
@@ -10641,12 +10292,12 @@
  	 	 	 	 /bcf2000/track.8/pushEncoder.4/turn 0 
  	 	 	 	 /bcf2000/track.1/fader 0 
  	 	 	 	 /bcf2000/track.2/fader 0 
- 	 	 	 	 /bcf2000/track.3/fader 0 
+ 	 	 	 	 /bcf2000/track.3/fader 45 
  	 	 	 	 /bcf2000/track.4/fader 0 
  	 	 	 	 /bcf2000/track.5/fader 0 
  	 	 	 	 /bcf2000/track.6/fader 0 
  	 	 	 	 /bcf2000/track.7/fader 0 
- 	 	 	 	 /bcf2000/track.8/fader 0 
+ 	 	 	 	 /bcf2000/track.8/fader 84 
  	 	 	 	 /bcf2000/track.1/key.lower 0 
  	 	 	 	 /bcf2000/track.1/key.upper 0 
  	 	 	 	 /bcf2000/track.2/key.lower 0 
@@ -10743,7 +10394,7 @@
  	 	 	 	 /ambicontrol/volume/type 0 
  # 
  # Module /PVout 
- 	 	 	 	 /PVout/audio/active 0 
+ 	 	 	 	 /PVout/audio/active 1 
  	 	 	 	 /PVout/audio/gain 0.000000 
  	 	 	 	 /PVout/audio/mute 1 
  	 	 	 	 /PVout/limiter/active 1 
@@ -10763,7 +10414,7 @@
  	 	 	 	 /PVout/view/highlight 0 
  # 
  # Module /eaCrumOut 
- 	 	 	 	 /eaCrumOut/audio/active 0 
+ 	 	 	 	 /eaCrumOut/audio/active 1 
  	 	 	 	 /eaCrumOut/audio/gain 0.000000 
  	 	 	 	 /eaCrumOut/audio/mute 1 
  	 	 	 	 /eaCrumOut/limiter/active 1 
@@ -11197,9 +10848,9 @@
  	 	 	 	 /EaCrum/view/highlight 0 
  # 
  # Module /lowVarOut 
- 	 	 	 	 /lowVarOut/audio/active 0 
- 	 	 	 	 /lowVarOut/audio/gain 0.000000 
- 	 	 	 	 /lowVarOut/audio/mute 1 
+ 	 	 	 	 /lowVarOut/audio/active 1 
+ 	 	 	 	 /lowVarOut/audio/gain 38.000000 
+ 	 	 	 	 /lowVarOut/audio/mute 0 
  	 	 	 	 /lowVarOut/limiter/active 1 
  	 	 	 	 /lowVarOut/limiter/dcblocker/active 1 
  	 	 	 	 /lowVarOut/limiter/lookahead 64 
@@ -11281,7 +10932,7 @@
  	 	 	 	 /lowSus1/trig/in/module/parameter /action 
  	 	 	 	 /lowSus1/turn/in/module/parameter 0 
  	 	 	 	 /lowSus1/audio/gain 62.000000 
- 	 	 	 	 /lowSus1/audio/mute 1 
+ 	 	 	 	 /lowSus1/audio/mute 0 
  	 	 	 	 /lowSus1/buffer/file Orangutan-Mix.aif 
  	 	 	 	 /lowSus1/grain/duration 600.000000 
  	 	 	 	 /lowSus1/grain/in/module/listindex 1 
@@ -11357,7 +11008,7 @@
  	 	 	 	 /lowSus1/pitch/slide/up 0 
  	 	 	 	 /lowSus1/pitch/transpose 0.000000 
  	 	 	 	 /lowSus1/pitch/variation 10.000000 
- 	 	 	 	 /lowSus1/position 24.000000 
+ 	 	 	 	 /lowSus1/position 2367.523193 
  	 	 	 	 /lowSus1/position/in/module/listindex 1 
  	 	 	 	 /lowSus1/position/mute 0 
  	 	 	 	 /lowSus1/position/offset 0.000000 
@@ -11424,9 +11075,9 @@
  	 	 	 	 /lowSus1/view/highlight 0 
  # 
  # Module /winderOut 
- 	 	 	 	 /winderOut/audio/active 0 
- 	 	 	 	 /winderOut/audio/gain 0.000000 
- 	 	 	 	 /winderOut/audio/mute 1 
+ 	 	 	 	 /winderOut/audio/active 1 
+ 	 	 	 	 /winderOut/audio/gain 38.000000 
+ 	 	 	 	 /winderOut/audio/mute 0 
  	 	 	 	 /winderOut/limiter/active 1 
  	 	 	 	 /winderOut/limiter/dcblocker/active 1 
  	 	 	 	 /winderOut/limiter/lookahead 64 
@@ -11508,7 +11159,7 @@
  	 	 	 	 /winder/trig/in/module/parameter 0 
  	 	 	 	 /winder/turn/in/module/parameter 0 
  	 	 	 	 /winder/audio/gain 54.000000 
- 	 	 	 	 /winder/audio/mute 1 
+ 	 	 	 	 /winder/audio/mute 0 
  	 	 	 	 /winder/buffer/file Macintosh 
  	 	 	 	 /winder/grain/duration 600.000000 
  	 	 	 	 /winder/grain/in/module/listindex 1 
@@ -11584,7 +11235,7 @@
  	 	 	 	 /winder/pitch/slide/up 0 
  	 	 	 	 /winder/pitch/transpose 0.000000 
  	 	 	 	 /winder/pitch/variation 10.000000 
- 	 	 	 	 /winder/position 40.533333 
+ 	 	 	 	 /winder/position 399.235168 
  	 	 	 	 /winder/position/in/module/listindex 1 
  	 	 	 	 /winder/position/mute 0 
  	 	 	 	 /winder/position/offset 0.000000 
@@ -11651,7 +11302,6 @@
  	 	 	 	 /winder/view/highlight 0 
  # 
  # Module /ED-rogs-3 
- 	 	 	 	 /ED-rogs-3/alias /ED-rogs-3/alias/remove 
  	 	 	 	 /ED-rogs-3/grain/in/module/name 0 
  	 	 	 	 /ED-rogs-3/onsetVar/in/module/name 0 
  	 	 	 	 /ED-rogs-3/pVar/in/module/name /centerX 
@@ -12273,7 +11923,7 @@
  	 	 	 	 /ED-rogs-1/view/highlight 0 
  # 
  # Module /glitchOut 
- 	 	 	 	 /glitchOut/audio/active 0 
+ 	 	 	 	 /glitchOut/audio/active 1 
  	 	 	 	 /glitchOut/audio/gain 0.000000 
  	 	 	 	 /glitchOut/audio/mute 1 
  	 	 	 	 /glitchOut/limiter/active 1 
@@ -12500,7 +12150,7 @@
  	 	 	 	 /glitch/view/highlight 0 
  # 
  # Module /pant2Out 
- 	 	 	 	 /pant2Out/audio/active 0 
+ 	 	 	 	 /pant2Out/audio/active 1 
  	 	 	 	 /pant2Out/audio/gain 0.000000 
  	 	 	 	 /pant2Out/audio/mute 1 
  	 	 	 	 /pant2Out/limiter/active 1 
@@ -12727,8 +12377,7 @@
  	 	 	 	 /scratch/view/highlight 0 
  # 
  # Module /pant1Out 
- 	 	 	 	 /pant1Out/alias /pant1Out/alias/remove 
- 	 	 	 	 /pant1Out/audio/active 0 
+ 	 	 	 	 /pant1Out/audio/active 1 
  	 	 	 	 /pant1Out/audio/gain 0.000000 
  	 	 	 	 /pant1Out/audio/mute 1 
  	 	 	 	 /pant1Out/limiter/active 1 
@@ -12955,7 +12604,6 @@
  	 	 	 	 /glass/view/highlight 0 
  # 
  # Module /sf-bozzi2 
- 	 	 	 	 /sf-bozzi2/alias /sf-bozzi2/alias/remove 
  	 	 	 	 /sf-bozzi2/open sample-bozzi2.aif 
  	 	 	 	 /sf-bozzi2/play 1 
  	 	 	 	 /sf-bozzi2/audio/gain 65.000000 
@@ -12966,7 +12614,7 @@
  	 	 	 	 /sf-bozzi2/view/highlight 0 
  # 
  # Module /Glass-output~ 
- 	 	 	 	 /Glass-output~/audio/active 0 
+ 	 	 	 	 /Glass-output~/audio/active 1 
  	 	 	 	 /Glass-output~/audio/gain 0.000000 
  	 	 	 	 /Glass-output~/audio/mute 1 
  	 	 	 	 /Glass-output~/limiter/active 1 
@@ -12994,6 +12642,27 @@
  	 	 	 	 /sf-bozzi1/loop 1 
  	 	 	 	 /sf-bozzi1/view/freeze 0 
  	 	 	 	 /sf-bozzi1/view/highlight 0 
+ # 
+ # Module /jmod.syn.imu 
+ # 
+ # Module /jmod.syn.imu.1 
+ # 
+ # Module /jmod.syn.imu.2 
+ # 
+ # Module /jmod.syn.imu.3 
+ # 
+ # Module /jmod.syn.imu.4 
+ # 
+ # Module /jmod.syn.imu.5 
+ # 
+ # Module /jmod.syn.imu.6 
+ # 
+ # Module /jmod.syn.imu.7 
+ # 
+ # Module /LRR 
+ 	 	 	 	 /LRR/PORT_RCV 0 
+ 	 	 	 	 /LRR/view/freeze 0 
+ 	 	 	 	 /LRR/view/highlight 0 
  # 
  ######################## 
  
