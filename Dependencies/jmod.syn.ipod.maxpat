@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 102.0, 44.0, 1371.0, 663.0 ],
+		"rect" : [ 0.0, 44.0, 1129.0, 738.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -34,7 +34,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 334.5, 629.0, 25.0, 25.0 ]
+					"patching_rect" : [ 306.0, 704.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -45,7 +45,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 319.5, 614.0, 25.0, 25.0 ]
+					"patching_rect" : [ 292.5, 689.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -56,7 +56,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 306.700012, 629.0, 25.0, 25.0 ]
+					"patching_rect" : [ 279.0, 704.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -67,7 +67,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 291.700012, 614.0, 25.0, 25.0 ]
+					"patching_rect" : [ 265.5, 689.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -78,7 +78,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 282.799988, 629.0, 25.0, 25.0 ]
+					"patching_rect" : [ 252.0, 704.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -89,7 +89,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 267.799988, 614.0, 25.0, 25.0 ]
+					"patching_rect" : [ 238.5, 689.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -100,7 +100,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 254.999985, 629.0, 25.0, 25.0 ]
+					"patching_rect" : [ 225.0, 704.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -111,7 +111,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 614.0, 25.0, 25.0 ]
+					"patching_rect" : [ 211.5, 689.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -122,7 +122,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 231.800003, 629.0, 25.0, 25.0 ]
+					"patching_rect" : [ 198.0, 704.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -133,7 +133,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.800003, 614.0, 25.0, 25.0 ]
+					"patching_rect" : [ 184.5, 689.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -144,7 +144,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 204.0, 629.0, 25.0, 25.0 ]
+					"patching_rect" : [ 171.0, 704.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -155,7 +155,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 189.0, 614.0, 25.0, 25.0 ]
+					"patching_rect" : [ 157.5, 689.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -166,7 +166,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.100006, 629.0, 25.0, 25.0 ]
+					"patching_rect" : [ 144.0, 704.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -177,7 +177,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.100006, 614.0, 25.0, 25.0 ]
+					"patching_rect" : [ 130.5, 689.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -188,7 +188,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.300003, 629.0, 25.0, 25.0 ]
+					"patching_rect" : [ 118.5, 704.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -201,7 +201,7 @@
 					"numinlets" : 16,
 					"numoutlets" : 17,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 137.300003, 577.0, 235.0, 19.0 ],
+					"patching_rect" : [ 103.5, 652.0, 235.0, 19.0 ],
 					"text" : "jcom.out 16"
 				}
 
@@ -213,7 +213,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 137.300003, 614.0, 25.0, 25.0 ]
+					"patching_rect" : [ 103.5, 689.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -226,7 +226,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 610.0, 293.0, 32.5, 19.0 ],
+					"patching_rect" : [ 106.0, 249.0, 32.5, 19.0 ],
 					"text" : "+ 1"
 				}
 
@@ -240,7 +240,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 158.5, 327.0, 52.0, 19.0 ],
+					"patching_rect" : [ 103.5, 406.0, 52.0, 19.0 ],
 					"text" : "switch 2"
 				}
 
@@ -251,12 +251,14 @@
 					"id" : "obj-31",
 					"maxclass" : "live.tab",
 					"num_lines_patching" : 1,
-					"num_lines_presentation" : 0,
+					"num_lines_presentation" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 610.0, 250.5, 100.0, 20.0 ],
+					"patching_rect" : [ 106.0, 223.0, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 6.0, 44.5, 100.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.tab",
@@ -280,9 +282,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "FullPacket" ],
-					"patching_rect" : [ 324.0, 261.0, 170.0, 45.0 ],
+					"patching_rect" : [ 147.300003, 338.0, 170.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 124.5, 19.5, 170.0, 45.0 ]
+					"presentation_rect" : [ 130.0, 25.0, 170.0, 45.0 ]
 				}
 
 			}
@@ -295,7 +297,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 596.599976, 555.0, 216.0, 19.0 ],
+					"patching_rect" : [ 541.599976, 634.0, 216.0, 19.0 ],
 					"text" : "jcom.return Ipod16 @description Ipod16"
 				}
 
@@ -309,7 +311,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 596.599976, 525.0, 216.0, 19.0 ],
+					"patching_rect" : [ 541.599976, 604.0, 216.0, 19.0 ],
 					"text" : "jcom.return Ipod15 @description Ipod15"
 				}
 
@@ -323,7 +325,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 591.199951, 500.0, 216.0, 19.0 ],
+					"patching_rect" : [ 536.199951, 579.0, 216.0, 19.0 ],
 					"text" : "jcom.return Ipod14 @description Ipod14"
 				}
 
@@ -337,7 +339,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 585.799927, 475.0, 216.0, 19.0 ],
+					"patching_rect" : [ 530.799927, 554.0, 216.0, 19.0 ],
 					"text" : "jcom.return Ipod13 @description Ipod13"
 				}
 
@@ -351,7 +353,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 580.399963, 445.0, 216.0, 19.0 ],
+					"patching_rect" : [ 525.399963, 524.0, 216.0, 19.0 ],
 					"text" : "jcom.return Ipod12 @description Ipod12"
 				}
 
@@ -365,7 +367,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 575.0, 415.0, 216.0, 19.0 ],
+					"patching_rect" : [ 520.0, 494.0, 216.0, 19.0 ],
 					"text" : "jcom.return Ipod11 @description Ipod11"
 				}
 
@@ -379,7 +381,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 388.5, 525.0, 216.0, 19.0 ],
+					"patching_rect" : [ 333.5, 604.0, 216.0, 19.0 ],
 					"text" : "jcom.return Ipod10 @description Ipod10"
 				}
 
@@ -393,7 +395,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 383.100006, 500.0, 203.0, 19.0 ],
+					"patching_rect" : [ 328.100006, 579.0, 203.0, 19.0 ],
 					"text" : "jcom.return Ipod9 @description Ipod9"
 				}
 
@@ -407,7 +409,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 377.699982, 475.0, 203.0, 19.0 ],
+					"patching_rect" : [ 322.699982, 554.0, 203.0, 19.0 ],
 					"text" : "jcom.return Ipod8 @description Ipod8"
 				}
 
@@ -421,7 +423,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 372.299988, 445.0, 203.0, 19.0 ],
+					"patching_rect" : [ 317.299988, 524.0, 203.0, 19.0 ],
 					"text" : "jcom.return Ipod7 @description Ipod7"
 				}
 
@@ -435,7 +437,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 366.899994, 415.0, 203.0, 19.0 ],
+					"patching_rect" : [ 311.899994, 494.0, 203.0, 19.0 ],
 					"text" : "jcom.return Ipod6 @description Ipod6"
 				}
 
@@ -449,7 +451,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 180.100006, 525.0, 203.0, 19.0 ],
+					"patching_rect" : [ 125.100006, 604.0, 203.0, 19.0 ],
 					"text" : "jcom.return Ipod5 @description Ipod5"
 				}
 
@@ -463,7 +465,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 174.699997, 500.0, 203.0, 19.0 ],
+					"patching_rect" : [ 119.699997, 579.0, 203.0, 19.0 ],
 					"text" : "jcom.return Ipod4 @description Ipod4"
 				}
 
@@ -477,7 +479,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 169.300003, 475.0, 203.0, 19.0 ],
+					"patching_rect" : [ 114.300003, 554.0, 203.0, 19.0 ],
 					"text" : "jcom.return Ipod3 @description Ipod3"
 				}
 
@@ -491,7 +493,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 163.899994, 445.0, 203.0, 19.0 ],
+					"patching_rect" : [ 108.899994, 524.0, 203.0, 19.0 ],
 					"text" : "jcom.return Ipod2 @description Ipod2"
 				}
 
@@ -505,7 +507,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 158.5, 293.0, 99.0, 19.0 ],
+					"patching_rect" : [ 120.0, 305.0, 99.0, 19.0 ],
 					"text" : "route /PORT_RCV"
 				}
 
@@ -521,9 +523,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 458.0, 210.0, 50.0, 19.0 ],
+					"patching_rect" : [ 451.799988, 25.5, 50.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 25.0, 50.0, 19.0 ]
+					"presentation_rect" : [ 6.0, 25.0, 50.0, 19.0 ]
 				}
 
 			}
@@ -582,7 +584,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+										"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2443,7 +2445,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 158.5, 361.0, 644.199951, 20.0 ],
+					"patching_rect" : [ 103.5, 440.0, 644.199951, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2557,9 +2559,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 378.5, 210.0, 77.0, 19.0 ],
+					"patching_rect" : [ 372.299988, 25.5, 77.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 50.0, 25.0, 62.0, 19.0 ],
+					"presentation_rect" : [ 56.0, 25.0, 62.0, 19.0 ],
 					"text" : "PORT_RCV"
 				}
 
@@ -2574,7 +2576,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 503.0, 204.0, 581.0, 31.0 ],
+					"patching_rect" : [ 496.799988, 19.5, 581.0, 31.0 ],
 					"text" : "jcom.parameter PORT_RCV @type integer @range/bounds 0 10000 @range/clipmode none @repetitions/allow 0 @ramp/drive scheduler @description \"Specifies receiving port number for IMU_device over network\"",
 					"varname" : "hue_angle"
 				}
@@ -2589,7 +2591,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 158.5, 415.0, 203.0, 19.0 ],
+					"patching_rect" : [ 103.5, 494.0, 203.0, 19.0 ],
 					"text" : "jcom.return Ipod1 @description Ipod1"
 				}
 
@@ -2603,7 +2605,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 158.5, 253.0, 56.0, 19.0 ],
+					"patching_rect" : [ 120.0, 279.0, 56.0, 19.0 ],
 					"text" : "jcom.in"
 				}
 
@@ -2631,7 +2633,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 106.0, 22.0, 22.0 ]
+					"patching_rect" : [ 18.0, 86.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -2642,7 +2644,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 248.0, 22.0, 22.0 ]
+					"patching_rect" : [ 18.0, 223.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -3225,8 +3227,8 @@
 			}
 , 			{
 				"name" : "o4.net_recv.maxpat",
-				"bootpath" : "/Users/synthesis/syn_audioportal/_maxByron/gitHubRepositories/Synthesis/O4_ASU/O4.net.ASU",
-				"patcherrelativepath" : "../../syn_audioportal/_maxByron/gitHubRepositories/Synthesis/O4_ASU/O4.net.ASU",
+				"bootpath" : "/Users/synthesis/Synthesis/O4_ASU/O4.net.ASU",
+				"patcherrelativepath" : "../../Synthesis/O4_ASU/O4.net.ASU",
 				"type" : "JSON",
 				"implicit" : 1
 			}
