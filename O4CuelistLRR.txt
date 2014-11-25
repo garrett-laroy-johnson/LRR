@@ -4332,7 +4332,7 @@
  KEYCUE "LRR_CorpusPygmalian" 
  
  
- 	 	 	 	 /CONFIG /rightarm 99 1 /rightfoot 99 1 /tummy 99 1 /head 99 1 /leftarm 99 1 /leftshoulder 99 1 /rightshouldar 99 1 /rightarm.1 99 1 /rightarm.2 99 1 /rightfoot.1 99 1 /tummy.1 99 1 /head.1 99 1 /leftarm.1 99 1 /leftshoulder.1 99 1 /rightshouldar.1 99 1 /rightarm.3 99 1 /waterOut 99 1 /water 99 1 /crisp1Out 99 1 /crisp1 99 1 /highSusOut 99 1 /highSus1 99 1 /myUes 99 1 /brcosa% 99 1 /orsize% 99 1 /input% 99 1 /motion% 99 1 /centerX 99 1 /centerY 99 1 /all-fixed 99 1 /height 99 1 /area 99 1 /width 99 1 /all 99 1 /large 99 1 /small 99 1 /bcf2000 99 1 /subWoof 99 1 /sources 99 1 /ambicontrol 99 1 /PVout 99 1 /eaCrumOut 99 1 /PVSpectral 99 1 /EaCrum 99 1 /lowVarOut 99 1 /lowSus1 99 1 /winderOut 99 1 /winder 99 1 /ED-rogs-3 99 1 /ED-rogs-2 99 1 /ED-rogs-1 99 1 /glitchOut 99 1 /glitch 99 1 /pant2Out 99 1 /scratch 99 1 /pant1Out 99 1 /glass 99 1 /sf-bozzi2 99 1 /Glass-output~ 99 1 /sf-bozzi1 99 1 /jmod.syn.imu.1 99 1 /jmod.syn.imu.2 99 1 /jmod.syn.imu.3 99 1 /jmod.syn.imu.4 99 1 /jmod.syn.imu.5 99 1 /jmod.syn.imu.6 99 1 /LRR 99 1 /CorpusDancer1 99 1 /CorpusDancer2 99 1 
+ 	 	 	 	 /CONFIG /rightarm 99 1 /rightfoot 99 1 /tummy 99 1 /head 99 1 /leftarm 99 1 /leftshoulder 99 1 /rightshouldar 99 1 /rightarm.1 99 1 /rightarm.2 99 1 /rightfoot.1 99 1 /tummy.1 99 1 /head.1 99 1 /leftarm.1 99 1 /leftshoulder.1 99 1 /rightshouldar.1 99 1 /rightarm.3 99 1 /waterOut 99 1 /water 99 1 /crisp1Out 99 1 /crisp1 99 1 /highSusOut 99 1 /highSus1 99 1 /myUes 99 1 /brcosa% 99 1 /orsize% 99 1 /input% 99 1 /motion% 99 1 /centerX 99 1 /centerY 99 1 /all-fixed 99 1 /height 99 1 /area 99 1 /width 99 1 /all 99 1 /large 99 1 /small 99 1 /bcf2000 99 1 /subWoof 99 1 /sources 99 1 /ambicontrol 99 1 /PVout 99 1 /eaCrumOut 99 1 /PVSpectral 99 1 /EaCrum 99 1 /lowVarOut 99 1 /lowSus1 99 1 /winderOut 99 1 /winder 99 1 /ED-rogs-3 99 1 /ED-rogs-2 99 1 /ED-rogs-1 99 1 /glitchOut 99 1 /glitch 99 1 /pant2Out 99 1 /scratch 99 1 /pant1Out 99 1 /glass 99 1 /sf-bozzi2 99 1 /Glass-output~ 99 1 /sf-bozzi1 99 1 /jmod.syn.imu.1 99 1 /jmod.syn.imu.2 99 1 /jmod.syn.imu.3 99 1 /jmod.syn.imu.4 99 1 /jmod.syn.imu.5 99 1 /jmod.syn.imu.6 99 1 /CorpusDancer1 99 1 /CorpusDancer2 99 1 /jmod.syn.imu.7 99 1 /LRR 99 1 
  	 	 	 	 /AUTOFOLLOW 0 
  # 
  ######################## 
@@ -4348,7 +4348,7 @@
  	 	 	 	 /rightarm/clip 0 
  	 	 	 	 /rightarm/in/direct 0 
  	 	 	 	 /rightarm/in/module/listindex 1 
- 	 	 	 	 /rightarm/mute 1 
+ 	 	 	 	 /rightarm/mute 0 
  	 	 	 	 /rightarm/offset 0.000000 
  	 	 	 	 /rightarm/ramp/time 0 
  	 	 	 	 /rightarm/scale/bypass 1 
@@ -4362,6 +4362,7 @@
  	 	 	 	 /rightarm/view/freeze 0 
  # 
  # Module /rightfoot 
+ 	 	 	 	 /rightfoot/alias /rightfoot/alias/remove 
  	 	 	 	 /rightfoot/in/module/name /LRR 
  	 	 	 	 /rightfoot/in/module/instance 1 
  	 	 	 	 /rightfoot/function linear 
@@ -4372,7 +4373,7 @@
  	 	 	 	 /rightfoot/clip 0 
  	 	 	 	 /rightfoot/in/direct 0 
  	 	 	 	 /rightfoot/in/module/listindex 1 
- 	 	 	 	 /rightfoot/mute 1 
+ 	 	 	 	 /rightfoot/mute 0 
  	 	 	 	 /rightfoot/offset 0.000000 
  	 	 	 	 /rightfoot/ramp/time 0 
  	 	 	 	 /rightfoot/scale/bypass 1 
@@ -4386,6 +4387,7 @@
  	 	 	 	 /rightfoot/view/freeze 0 
  # 
  # Module /tummy 
+ 	 	 	 	 /tummy/alias /tummy/alias/remove 
  	 	 	 	 /tummy/in/module/name /LRR 
  	 	 	 	 /tummy/in/module/instance 0 
  	 	 	 	 /tummy/function linear 
@@ -4396,7 +4398,7 @@
  	 	 	 	 /tummy/clip 0 
  	 	 	 	 /tummy/in/direct 0 
  	 	 	 	 /tummy/in/module/listindex 1 
- 	 	 	 	 /tummy/mute 1 
+ 	 	 	 	 /tummy/mute 0 
  	 	 	 	 /tummy/offset 0.000000 
  	 	 	 	 /tummy/ramp/time 0 
  	 	 	 	 /tummy/scale/bypass 1 
@@ -4410,6 +4412,7 @@
  	 	 	 	 /tummy/view/freeze 0 
  # 
  # Module /head 
+ 	 	 	 	 /head/alias /head/alias/remove 
  	 	 	 	 /head/in/module/name /LRR 
  	 	 	 	 /head/in/module/instance 0 
  	 	 	 	 /head/function linear 
@@ -4420,7 +4423,7 @@
  	 	 	 	 /head/clip 0 
  	 	 	 	 /head/in/direct 0 
  	 	 	 	 /head/in/module/listindex 1 
- 	 	 	 	 /head/mute 1 
+ 	 	 	 	 /head/mute 0 
  	 	 	 	 /head/offset 0.000000 
  	 	 	 	 /head/ramp/time 0 
  	 	 	 	 /head/scale/bypass 1 
@@ -4444,7 +4447,7 @@
  	 	 	 	 /leftarm/clip 0 
  	 	 	 	 /leftarm/in/direct 0 
  	 	 	 	 /leftarm/in/module/listindex 1 
- 	 	 	 	 /leftarm/mute 1 
+ 	 	 	 	 /leftarm/mute 0 
  	 	 	 	 /leftarm/offset 0.000000 
  	 	 	 	 /leftarm/ramp/time 0 
  	 	 	 	 /leftarm/scale/bypass 1 
@@ -4468,7 +4471,7 @@
  	 	 	 	 /leftshoulder/clip 0 
  	 	 	 	 /leftshoulder/in/direct 0 
  	 	 	 	 /leftshoulder/in/module/listindex 1 
- 	 	 	 	 /leftshoulder/mute 1 
+ 	 	 	 	 /leftshoulder/mute 0 
  	 	 	 	 /leftshoulder/offset 0.000000 
  	 	 	 	 /leftshoulder/ramp/time 0 
  	 	 	 	 /leftshoulder/scale/bypass 1 
@@ -4492,7 +4495,7 @@
  	 	 	 	 /rightshouldar/clip 0 
  	 	 	 	 /rightshouldar/in/direct 0 
  	 	 	 	 /rightshouldar/in/module/listindex 1 
- 	 	 	 	 /rightshouldar/mute 1 
+ 	 	 	 	 /rightshouldar/mute 0 
  	 	 	 	 /rightshouldar/offset 0.000000 
  	 	 	 	 /rightshouldar/ramp/time 0 
  	 	 	 	 /rightshouldar/scale/bypass 1 
@@ -4516,7 +4519,7 @@
  	 	 	 	 /rightarm.1/clip 0 
  	 	 	 	 /rightarm.1/in/direct 0 
  	 	 	 	 /rightarm.1/in/module/listindex 1 
- 	 	 	 	 /rightarm.1/mute 1 
+ 	 	 	 	 /rightarm.1/mute 0 
  	 	 	 	 /rightarm.1/offset 0.000000 
  	 	 	 	 /rightarm.1/ramp/time 0 
  	 	 	 	 /rightarm.1/scale/bypass 1 
@@ -4530,6 +4533,7 @@
  	 	 	 	 /rightarm.1/view/freeze 0 
  # 
  # Module /rightarm.2 
+ 	 	 	 	 /rightarm.2/alias /rightarm.2/alias/remove 
  	 	 	 	 /rightarm.2/in/module/name /LRR 
  	 	 	 	 /rightarm.2/in/module/instance 0 
  	 	 	 	 /rightarm.2/function linear 
@@ -4626,6 +4630,7 @@
  	 	 	 	 /head.1/view/freeze 0 
  # 
  # Module /leftarm.1 
+ 	 	 	 	 /leftarm.1/alias /leftarm.1/alias/remove 
  	 	 	 	 /leftarm.1/in/module/name /LRR 
  	 	 	 	 /leftarm.1/in/module/instance 1 
  	 	 	 	 /leftarm.1/function linear 
@@ -4650,6 +4655,7 @@
  	 	 	 	 /leftarm.1/view/freeze 0 
  # 
  # Module /leftshoulder.1 
+ 	 	 	 	 /leftshoulder.1/alias /leftshoulder.1/alias/remove 
  	 	 	 	 /leftshoulder.1/in/module/name /LRR 
  	 	 	 	 /leftshoulder.1/in/module/instance 1 
  	 	 	 	 /leftshoulder.1/function linear 
@@ -4723,8 +4729,8 @@
  # 
  # Module /waterOut 
  	 	 	 	 /waterOut/audio/active 1 
- 	 	 	 	 /waterOut/audio/gain 0.000000 
- 	 	 	 	 /waterOut/audio/mute 1 
+ 	 	 	 	 /waterOut/audio/gain 32.000000 
+ 	 	 	 	 /waterOut/audio/mute 0 
  	 	 	 	 /waterOut/limiter/active 1 
  	 	 	 	 /waterOut/limiter/dcblocker/active 1 
  	 	 	 	 /waterOut/limiter/lookahead 64 
@@ -4744,7 +4750,7 @@
  # Module /water 
  	 	 	 	 /water/grain/in/module/name 0 
  	 	 	 	 /water/onsetVar/in/module/name 0 
- 	 	 	 	 /water/pVar/in/module/name /centerY 
+ 	 	 	 	 /water/pVar/in/module/name /LRR 
  	 	 	 	 /water/pitch/in/module/name 0 
  	 	 	 	 /water/position/in/module/name 0 
  	 	 	 	 /water/size/in/module/name 0 
@@ -4798,15 +4804,15 @@
  	 	 	 	 /water/turn/function/parameter1 0.000000 
  	 	 	 	 /water/grain/in/module/parameter 0 
  	 	 	 	 /water/onsetVar/in/module/parameter 0 
- 	 	 	 	 /water/pVar/in/module/parameter /out/final 
+ 	 	 	 	 /water/pVar/in/module/parameter /Ipod7 
  	 	 	 	 /water/pitch/in/module/parameter 0 
  	 	 	 	 /water/position/in/module/parameter 0 
  	 	 	 	 /water/size/in/module/parameter 0 
- 	 	 	 	 /water/speed/in/module/parameter /Ipod1 
+ 	 	 	 	 /water/speed/in/module/parameter /Ipod6 
  	 	 	 	 /water/trig/in/module/parameter 0 
  	 	 	 	 /water/turn/in/module/parameter 0 
  	 	 	 	 /water/audio/gain 45.000000 
- 	 	 	 	 /water/audio/mute 1 
+ 	 	 	 	 /water/audio/mute 0 
  	 	 	 	 /water/buffer/file creek_calm.aif 
  	 	 	 	 /water/grain/duration 411.000000 
  	 	 	 	 /water/grain/in/module/listindex 1 
@@ -4854,12 +4860,12 @@
  	 	 	 	 /water/onsetVar/slide/down 0 
  	 	 	 	 /water/onsetVar/slide/up 0 
  	 	 	 	 /water/pVar/in/module/listindex 1 
- 	 	 	 	 /water/pVar/mute 0 
+ 	 	 	 	 /water/pVar/mute 1 
  	 	 	 	 /water/pVar/offset 0.000000 
  	 	 	 	 /water/pVar/ramp/time 0 
  	 	 	 	 /water/pVar/scale/bypass 1 
  	 	 	 	 /water/pVar/scale/input/max 1.000000 
- 	 	 	 	 /water/pVar/scale/input/min -1.000000 
+ 	 	 	 	 /water/pVar/scale/input/min 0.000000 
  	 	 	 	 /water/pVar/scale/max 1.000000 
  	 	 	 	 /water/pVar/scale/min 0.000000 
  	 	 	 	 /water/pVar/scale/mode 0 
@@ -4950,8 +4956,8 @@
  # 
  # Module /crisp1Out 
  	 	 	 	 /crisp1Out/audio/active 1 
- 	 	 	 	 /crisp1Out/audio/gain 0.000000 
- 	 	 	 	 /crisp1Out/audio/mute 1 
+ 	 	 	 	 /crisp1Out/audio/gain 32.000000 
+ 	 	 	 	 /crisp1Out/audio/mute 0 
  	 	 	 	 /crisp1Out/limiter/active 1 
  	 	 	 	 /crisp1Out/limiter/dcblocker/active 1 
  	 	 	 	 /crisp1Out/limiter/lookahead 64 
@@ -4969,6 +4975,7 @@
  	 	 	 	 /crisp1Out/view/highlight 0 
  # 
  # Module /crisp1 
+ 	 	 	 	 /crisp1/alias /crisp1/alias/remove 
  	 	 	 	 /crisp1/grain/in/module/name 0 
  	 	 	 	 /crisp1/onsetVar/in/module/name 0 
  	 	 	 	 /crisp1/pVar/in/module/name /ipods 
@@ -5033,7 +5040,7 @@
  	 	 	 	 /crisp1/trig/in/module/parameter /Ipod1 
  	 	 	 	 /crisp1/turn/in/module/parameter 0 
  	 	 	 	 /crisp1/audio/gain 51.000000 
- 	 	 	 	 /crisp1/audio/mute 1 
+ 	 	 	 	 /crisp1/audio/mute 0 
  	 	 	 	 /crisp1/buffer/file sharp-knives.aif 
  	 	 	 	 /crisp1/grain/duration 54.000000 
  	 	 	 	 /crisp1/grain/in/module/listindex 1 
@@ -5109,7 +5116,7 @@
  	 	 	 	 /crisp1/pitch/slide/up 0 
  	 	 	 	 /crisp1/pitch/transpose 0.000000 
  	 	 	 	 /crisp1/pitch/variation 4.000000 
- 	 	 	 	 /crisp1/position 717.816345 
+ 	 	 	 	 /crisp1/position 555.849609 
  	 	 	 	 /crisp1/position/in/module/listindex 1 
  	 	 	 	 /crisp1/position/mute 0 
  	 	 	 	 /crisp1/position/offset 0.000000 
@@ -5177,8 +5184,8 @@
  # 
  # Module /highSusOut 
  	 	 	 	 /highSusOut/audio/active 1 
- 	 	 	 	 /highSusOut/audio/gain 0.000000 
- 	 	 	 	 /highSusOut/audio/mute 1 
+ 	 	 	 	 /highSusOut/audio/gain 32.000000 
+ 	 	 	 	 /highSusOut/audio/mute 0 
  	 	 	 	 /highSusOut/limiter/active 1 
  	 	 	 	 /highSusOut/limiter/dcblocker/active 1 
  	 	 	 	 /highSusOut/limiter/lookahead 64 
@@ -5260,7 +5267,7 @@
  	 	 	 	 /highSus1/trig/in/module/parameter 0 
  	 	 	 	 /highSus1/turn/in/module/parameter 0 
  	 	 	 	 /highSus1/audio/gain 15.000000 
- 	 	 	 	 /highSus1/audio/mute 1 
+ 	 	 	 	 /highSus1/audio/mute 0 
  	 	 	 	 /highSus1/buffer/file Nasori-spctrlTracing-pDelay-mono.aif 
  	 	 	 	 /highSus1/grain/duration 770.000000 
  	 	 	 	 /highSus1/grain/in/module/listindex 1 
@@ -5336,7 +5343,7 @@
  	 	 	 	 /highSus1/pitch/slide/up 0 
  	 	 	 	 /highSus1/pitch/transpose 0.000000 
  	 	 	 	 /highSus1/pitch/variation -1.000000 
- 	 	 	 	 /highSus1/position 8986.970703 
+ 	 	 	 	 /highSus1/position 575.926086 
  	 	 	 	 /highSus1/position/in/module/listindex 1 
  	 	 	 	 /highSus1/position/mute 0 
  	 	 	 	 /highSus1/position/offset 0.000000 
@@ -5407,6 +5414,7 @@
  	 	 	 	 /myUes/view/highlight 0 
  # 
  # Module /brcosa% 
+ 	 	 	 	 /brcosa%/alias /brcosa%/alias/remove 
  	 	 	 	 /brcosa%/brightness 1.000000 
  	 	 	 	 /brcosa%/contrast 1.000000 
  	 	 	 	 /brcosa%/monochrome 1 
@@ -5467,6 +5475,7 @@
  	 	 	 	 /input%/view/highlight none 
  # 
  # Module /motion% 
+ 	 	 	 	 /motion%/alias /motion%/alias/remove 
  	 	 	 	 /motion%/centroid/color 0.000000 255.000000 255.000000 
  	 	 	 	 /motion%/centroid/on 1 
  	 	 	 	 /motion%/centroid/size/on 0 
@@ -5620,6 +5629,7 @@
  	 	 	 	 /height/visualize 1 
  # 
  # Module /area 
+ 	 	 	 	 /area/alias /area/alias/remove 
  	 	 	 	 /area/function 0 
  	 	 	 	 /area/function/symmetry 0 
  	 	 	 	 /area/function/parameter2 0.000000 
@@ -5684,6 +5694,7 @@
  	 	 	 	 /width/visualize 1 
  # 
  # Module /all 
+ 	 	 	 	 /all/alias /all/alias/remove 
  	 	 	 	 /all/function 0 
  	 	 	 	 /all/function/symmetry 0 
  	 	 	 	 /all/function/parameter2 0.000000 
@@ -5852,11 +5863,11 @@
  	 	 	 	 /bcf2000/track.8/pushEncoder.3/turn 0 
  	 	 	 	 /bcf2000/track.8/pushEncoder.4/press 0 
  	 	 	 	 /bcf2000/track.8/pushEncoder.4/turn 0 
- 	 	 	 	 /bcf2000/track.1/fader 0 
- 	 	 	 	 /bcf2000/track.2/fader 0 
+ 	 	 	 	 /bcf2000/track.1/fader 100 
+ 	 	 	 	 /bcf2000/track.2/fader 95 
  	 	 	 	 /bcf2000/track.3/fader 0 
  	 	 	 	 /bcf2000/track.4/fader 0 
- 	 	 	 	 /bcf2000/track.5/fader 0 
+ 	 	 	 	 /bcf2000/track.5/fader 38 
  	 	 	 	 /bcf2000/track.6/fader 0 
  	 	 	 	 /bcf2000/track.7/fader 0 
  	 	 	 	 /bcf2000/track.8/fader 89 
@@ -5996,6 +6007,7 @@
  	 	 	 	 /eaCrumOut/view/highlight 0 
  # 
  # Module /PVSpectral 
+ 	 	 	 	 /PVSpectral/alias /PVSpectral/alias/remove 
  	 	 	 	 /PVSpectral/grain/in/module/name 0 
  	 	 	 	 /PVSpectral/onsetVar/in/module/name 0 
  	 	 	 	 /PVSpectral/pVar/in/module/name 0 
@@ -6056,7 +6068,7 @@
  	 	 	 	 /PVSpectral/pitch/in/module/parameter 0 
  	 	 	 	 /PVSpectral/position/in/module/parameter 0 
  	 	 	 	 /PVSpectral/size/in/module/parameter 0 
- 	 	 	 	 /PVSpectral/speed/in/module/parameter /Ipod15 
+ 	 	 	 	 /PVSpectral/speed/in/module/parameter /Ipod4 
  	 	 	 	 /PVSpectral/trig/in/module/parameter 0 
  	 	 	 	 /PVSpectral/turn/in/module/parameter 0 
  	 	 	 	 /PVSpectral/audio/gain 67.000000 
@@ -6259,12 +6271,12 @@
  	 	 	 	 /EaCrum/turn/function/parameter1 0.000000 
  	 	 	 	 /EaCrum/grain/in/module/parameter 0 
  	 	 	 	 /EaCrum/onsetVar/in/module/parameter 0 
- 	 	 	 	 /EaCrum/pVar/in/module/parameter /Ipod15 
+ 	 	 	 	 /EaCrum/pVar/in/module/parameter /Ipod6 
  	 	 	 	 /EaCrum/pitch/in/module/parameter 0 
  	 	 	 	 /EaCrum/position/in/module/parameter 0 
- 	 	 	 	 /EaCrum/size/in/module/parameter /Ipod15 
- 	 	 	 	 /EaCrum/speed/in/module/parameter /Ipod15 
- 	 	 	 	 /EaCrum/trig/in/module/parameter /Ipod15 
+ 	 	 	 	 /EaCrum/size/in/module/parameter /Ipod8 
+ 	 	 	 	 /EaCrum/speed/in/module/parameter /Ipod7 
+ 	 	 	 	 /EaCrum/trig/in/module/parameter /Ipod4 
  	 	 	 	 /EaCrum/turn/in/module/parameter 0 
  	 	 	 	 /EaCrum/audio/gain 67.000000 
  	 	 	 	 /EaCrum/audio/mute 1 
@@ -6410,6 +6422,7 @@
  	 	 	 	 /EaCrum/view/highlight 0 
  # 
  # Module /lowVarOut 
+ 	 	 	 	 /lowVarOut/alias /lowVarOut/alias/remove 
  	 	 	 	 /lowVarOut/audio/active 1 
  	 	 	 	 /lowVarOut/audio/gain 0.000000 
  	 	 	 	 /lowVarOut/audio/mute 1 
@@ -6928,7 +6941,7 @@
  	 	 	 	 /ED-rogs-3/trig/in/module/parameter 0 
  	 	 	 	 /ED-rogs-3/turn/in/module/parameter 0 
  	 	 	 	 /ED-rogs-3/audio/gain 48.000000 
- 	 	 	 	 /ED-rogs-3/audio/mute 1 
+ 	 	 	 	 /ED-rogs-3/audio/mute 0 
  	 	 	 	 /ED-rogs-3/buffer/file /Users/Lolita/Desktop/2013 
  	 	 	 	 /ED-rogs-3/grain/duration 482.000000 
  	 	 	 	 /ED-rogs-3/grain/in/module/listindex 1 
@@ -7004,7 +7017,7 @@
  	 	 	 	 /ED-rogs-3/pitch/slide/up 0 
  	 	 	 	 /ED-rogs-3/pitch/transpose -1200.000000 
  	 	 	 	 /ED-rogs-3/pitch/variation 0.000000 
- 	 	 	 	 /ED-rogs-3/position 23782.189453 
+ 	 	 	 	 /ED-rogs-3/position 19429.371094 
  	 	 	 	 /ED-rogs-3/position/in/module/listindex 1 
  	 	 	 	 /ED-rogs-3/position/mute 0 
  	 	 	 	 /ED-rogs-3/position/offset 0.000000 
@@ -7135,7 +7148,7 @@
  	 	 	 	 /ED-rogs-2/trig/in/module/parameter /Ipod14 
  	 	 	 	 /ED-rogs-2/turn/in/module/parameter /Ipod16 
  	 	 	 	 /ED-rogs-2/audio/gain 63.000000 
- 	 	 	 	 /ED-rogs-2/audio/mute 1 
+ 	 	 	 	 /ED-rogs-2/audio/mute 0 
  	 	 	 	 /ED-rogs-2/buffer/file /Users/Lolita/Desktop/2013 
  	 	 	 	 /ED-rogs-2/grain/duration 6.900000 
  	 	 	 	 /ED-rogs-2/grain/in/module/listindex 1 
@@ -7211,7 +7224,7 @@
  	 	 	 	 /ED-rogs-2/pitch/slide/up 0 
  	 	 	 	 /ED-rogs-2/pitch/transpose 0.000000 
  	 	 	 	 /ED-rogs-2/pitch/variation 0.000000 
- 	 	 	 	 /ED-rogs-2/position 126846.414062 
+ 	 	 	 	 /ED-rogs-2/position 10889.431641 
  	 	 	 	 /ED-rogs-2/position/in/module/listindex 1 
  	 	 	 	 /ED-rogs-2/position/mute 0 
  	 	 	 	 /ED-rogs-2/position/offset 0.000000 
@@ -7280,12 +7293,12 @@
  # Module /ED-rogs-1 
  	 	 	 	 /ED-rogs-1/grain/in/module/name /ipods 
  	 	 	 	 /ED-rogs-1/onsetVar/in/module/name /ipods 
- 	 	 	 	 /ED-rogs-1/pVar/in/module/name /ipods 
+ 	 	 	 	 /ED-rogs-1/pVar/in/module/name /LRR 
  	 	 	 	 /ED-rogs-1/pitch/in/module/name /ipods 
- 	 	 	 	 /ED-rogs-1/position/in/module/name /ipods 
- 	 	 	 	 /ED-rogs-1/size/in/module/name /ipods 
- 	 	 	 	 /ED-rogs-1/speed/in/module/name /ipods 
- 	 	 	 	 /ED-rogs-1/trig/in/module/name /ipods 
+ 	 	 	 	 /ED-rogs-1/position/in/module/name /LRR 
+ 	 	 	 	 /ED-rogs-1/size/in/module/name /LRR 
+ 	 	 	 	 /ED-rogs-1/speed/in/module/name /LRR 
+ 	 	 	 	 /ED-rogs-1/trig/in/module/name /LRR 
  	 	 	 	 /ED-rogs-1/turn/in/module/name /ipods 
  	 	 	 	 /ED-rogs-1/grain/in/module/instance 0 
  	 	 	 	 /ED-rogs-1/onsetVar/in/module/instance 0 
@@ -7334,15 +7347,15 @@
  	 	 	 	 /ED-rogs-1/turn/function/parameter1 0.000000 
  	 	 	 	 /ED-rogs-1/grain/in/module/parameter /Ipod8 
  	 	 	 	 /ED-rogs-1/onsetVar/in/module/parameter /ACCZ 
- 	 	 	 	 /ED-rogs-1/pVar/in/module/parameter /Ipod9 
+ 	 	 	 	 /ED-rogs-1/pVar/in/module/parameter /Ipod4 
  	 	 	 	 /ED-rogs-1/pitch/in/module/parameter /Ipod6 
  	 	 	 	 /ED-rogs-1/position/in/module/parameter /Ipod1 
- 	 	 	 	 /ED-rogs-1/size/in/module/parameter /Ipod8 
- 	 	 	 	 /ED-rogs-1/speed/in/module/parameter /Ipod7 
- 	 	 	 	 /ED-rogs-1/trig/in/module/parameter /Ipod1 
+ 	 	 	 	 /ED-rogs-1/size/in/module/parameter /Ipod3 
+ 	 	 	 	 /ED-rogs-1/speed/in/module/parameter /Ipod2 
+ 	 	 	 	 /ED-rogs-1/trig/in/module/parameter /Ipod5 
  	 	 	 	 /ED-rogs-1/turn/in/module/parameter /Ipod7 
  	 	 	 	 /ED-rogs-1/audio/gain 61.000000 
- 	 	 	 	 /ED-rogs-1/audio/mute 1 
+ 	 	 	 	 /ED-rogs-1/audio/mute 0 
  	 	 	 	 /ED-rogs-1/buffer/file Untitled:/Users/NavNav/Code/2013 
  	 	 	 	 /ED-rogs-1/grain/duration 61.000000 
  	 	 	 	 /ED-rogs-1/grain/in/module/listindex 1 
@@ -7505,6 +7518,7 @@
  	 	 	 	 /glitchOut/view/highlight 0 
  # 
  # Module /glitch 
+ 	 	 	 	 /glitch/alias /glitch/alias/remove 
  	 	 	 	 /glitch/grain/in/module/name 0 
  	 	 	 	 /glitch/onsetVar/in/module/name 0 
  	 	 	 	 /glitch/pVar/in/module/name /all 
@@ -7732,6 +7746,7 @@
  	 	 	 	 /pant2Out/view/highlight 0 
  # 
  # Module /scratch 
+ 	 	 	 	 /scratch/alias /scratch/alias/remove 
  	 	 	 	 /scratch/grain/in/module/name 0 
  	 	 	 	 /scratch/onsetVar/in/module/name /micEnv 
  	 	 	 	 /scratch/pVar/in/module/name /centerX 
@@ -8169,7 +8184,7 @@
  	 	 	 	 /sf-bozzi2/open sample-bozzi2.aif 
  	 	 	 	 /sf-bozzi2/play 1 
  	 	 	 	 /sf-bozzi2/audio/gain 65.000000 
- 	 	 	 	 /sf-bozzi2/audio/mute 1 
+ 	 	 	 	 /sf-bozzi2/audio/mute 0 
  	 	 	 	 /sf-bozzi2/countdown 0 
  	 	 	 	 /sf-bozzi2/loop 1 
  	 	 	 	 /sf-bozzi2/view/freeze 0 
@@ -8177,8 +8192,8 @@
  # 
  # Module /Glass-output~ 
  	 	 	 	 /Glass-output~/audio/active 1 
- 	 	 	 	 /Glass-output~/audio/gain 0.000000 
- 	 	 	 	 /Glass-output~/audio/mute 1 
+ 	 	 	 	 /Glass-output~/audio/gain 87.000000 
+ 	 	 	 	 /Glass-output~/audio/mute 0 
  	 	 	 	 /Glass-output~/limiter/active 1 
  	 	 	 	 /Glass-output~/limiter/dcblocker/active 1 
  	 	 	 	 /Glass-output~/limiter/lookahead 64 
@@ -8198,8 +8213,8 @@
  # Module /sf-bozzi1 
  	 	 	 	 /sf-bozzi1/open sample-bozzi.aif 
  	 	 	 	 /sf-bozzi1/play 1 
- 	 	 	 	 /sf-bozzi1/audio/gain 50.000000 
- 	 	 	 	 /sf-bozzi1/audio/mute 1 
+ 	 	 	 	 /sf-bozzi1/audio/gain 58.000000 
+ 	 	 	 	 /sf-bozzi1/audio/mute 0 
  	 	 	 	 /sf-bozzi1/countdown 0 
  	 	 	 	 /sf-bozzi1/loop 1 
  	 	 	 	 /sf-bozzi1/view/freeze 0 
@@ -8216,11 +8231,6 @@
  # Module /jmod.syn.imu.5 
  # 
  # Module /jmod.syn.imu.6 
- # 
- # Module /LRR 
- 	 	 	 	 /LRR/PORT_RCV 0 
- 	 	 	 	 /LRR/view/freeze 0 
- 	 	 	 	 /LRR/view/highlight 0 
  # 
  # Module /CorpusDancer1 
  	 	 	 	 /CorpusDancer1/audio/active 1 
@@ -8261,6 +8271,13 @@
  	 	 	 	 /CorpusDancer2/setup 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 
  	 	 	 	 /CorpusDancer2/view/freeze 0 
  	 	 	 	 /CorpusDancer2/view/highlight 0 
+ # 
+ # Module /jmod.syn.imu.7 
+ # 
+ # Module /LRR 
+ 	 	 	 	 /LRR/PORT_RCV 0 
+ 	 	 	 	 /LRR/view/freeze 0 
+ 	 	 	 	 /LRR/view/highlight 0 
  # 
  ######################## 
  

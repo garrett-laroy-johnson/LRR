@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 302.0, 169.0, 1618.0, 754.0 ],
+		"rect" : [ 599.0, 124.0, 1618.0, 754.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -31,14 +31,14 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
-					"id" : "obj-9",
-					"maxclass" : "newobj",
+					"id" : "obj-63",
+					"linecount" : 4,
+					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 735.0, 60.272217, 66.0, 19.0 ],
-					"text" : "delay 2000",
-					"varname" : "delay"
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 537.0, -34.727783, 160.0, 53.0 ],
+					"text" : "readfolder 230.:/Users/student/Desktop/LRR/Sound_Library/Alphabet/"
 				}
 
 			}
@@ -273,11 +273,11 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 1017.0, 328.0, 640.0, 480.0 ],
+						"rect" : [ 1831.0, 123.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -297,6 +297,20 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.595187,
+									"id" : "obj-8",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 51.0, 327.044434, 198.0, 17.0 ],
+									"text" : "script connect trigger1 0 polybuffer 0"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-1",
@@ -343,7 +357,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 210.0, 118.0, 120.0, 18.0 ],
+									"patching_rect" : [ 188.0, 87.908325, 120.0, 18.0 ],
 									"text" : "/editing_this_module"
 								}
 
@@ -359,20 +373,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 390.0, 263.455566, 127.0, 17.0 ],
 									"text" : "script delete polybuffer"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 11.595187,
-									"id" : "obj-74",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 319.727783, 186.0, 17.0 ],
-									"text" : "script connect delay 0 polybuffer 0"
 								}
 
 							}
@@ -440,7 +440,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 81.0, 89.908325, 102.0, 19.0 ],
+									"patching_rect" : [ 42.5, 87.908325, 102.0, 19.0 ],
 									"text" : "s #0_groovename"
 								}
 
@@ -452,10 +452,10 @@
 									"id" : "obj-76",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 7,
-									"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "", "" ],
-									"patching_rect" : [ 51.0, 154.908325, 100.0, 19.0 ],
-									"text" : "t b b b b b s s"
+									"numoutlets" : 9,
+									"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "", "", "bang" ],
+									"patching_rect" : [ 51.0, 154.908325, 127.0, 19.0 ],
+									"text" : "t b b b b b b s s b"
 								}
 
 							}
@@ -482,7 +482,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 132.0, 185.0, 176.0, 18.0 ],
+									"patching_rect" : [ 145.5, 187.636108, 176.0, 18.0 ],
 									"text" : "script newobject polybuffer~ $1"
 								}
 
@@ -653,25 +653,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-55", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-74", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-76", 5 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-47", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-76", 6 ]
@@ -680,10 +662,28 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-47", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-76", 7 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-76", 8 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-62", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-76", 4 ]
+									"source" : [ "obj-76", 5 ]
 								}
 
 							}
@@ -692,7 +692,7 @@
 									"destination" : [ "obj-65", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-76", 3 ]
+									"source" : [ "obj-76", 4 ]
 								}
 
 							}
@@ -701,7 +701,7 @@
 									"destination" : [ "obj-67", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-76", 2 ]
+									"source" : [ "obj-76", 3 ]
 								}
 
 							}
@@ -710,16 +710,25 @@
 									"destination" : [ "obj-70", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"source" : [ "obj-76", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
 									"source" : [ "obj-76", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-74", 0 ],
+									"destination" : [ "obj-55", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-76", 0 ]
+									"source" : [ "obj-8", 0 ]
 								}
 
 							}
@@ -753,7 +762,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1005.0, 24.0, 62.0, 19.0 ],
+					"patching_rect" : [ 974.0, 60.272217, 62.0, 19.0 ],
 					"text" : "t getcount",
 					"varname" : "trigger1"
 				}
@@ -796,8 +805,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 735.0, 24.0, 46.0, 19.0 ],
-					"text" : "t s b b",
+					"patching_rect" : [ 735.0, -1.591675, 46.0, 19.0 ],
+					"text" : "t l b b",
 					"varname" : "trigger2"
 				}
 
@@ -839,7 +848,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 750.0, 99.544434, 68.0, 17.0 ],
+					"patching_rect" : [ 762.0, 146.0, 68.0, 17.0 ],
 					"text" : "/name:/get"
 				}
 
@@ -858,7 +867,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -891,7 +900,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 300.0, 180.0, 50.0, 18.0 ],
-									"text" : "0."
+									"text" : "0.3"
 								}
 
 							}
@@ -1035,7 +1044,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -1386,7 +1395,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 6,
 											"architecture" : "x86"
 										}
 ,
@@ -2635,7 +2644,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 815.0, -1.591675, 78.0, 17.0 ],
+					"patching_rect" : [ 735.0, -23.591675, 78.0, 17.0 ],
 					"text" : "readfolder $1",
 					"varname" : "message1"
 				}
@@ -2951,7 +2960,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 815.0, -40.0, 150.0, 19.0 ],
+					"patching_rect" : [ 735.0, -62.0, 150.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 146.5, 209.25, 142.5, 19.0 ],
 					"text" : "drop sample folder here"
@@ -2965,7 +2974,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 815.0, -55.636108, 126.0, 50.272217 ],
+					"patching_rect" : [ 735.0, -77.636108, 126.0, 50.272217 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 146.5, 182.0, 136.0, 65.25 ]
 				}
@@ -3471,6 +3480,25 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"fontname" : "Verdana",
+					"fontsize" : 10.0,
+					"id" : "obj-77",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 815.0, 24.0, 178.0, 19.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 0
+					}
+,
+					"text" : "polybuffer~ /editing_this_module",
+					"varname" : "polybuffer"
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -3808,7 +3836,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-63", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-77", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-36", 0 ]
@@ -3902,6 +3939,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-77", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-49", 0 ]
 				}
 
 			}
@@ -4042,6 +4088,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-77", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-77", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4142,15 +4206,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jcom.meter_receive.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/meter_receive",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/meter_receive",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/meter_receive",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.parameterCreate.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/parameterCreate",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/parameterCreate",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4170,57 +4234,57 @@
 			}
 , 			{
 				"name" : "jcom.modulesDumper.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/modulesDumper",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/modulesDumper",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/modulesDumper",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.thru.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/thru",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/thru",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getAllAttributes.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/getAllAttributes",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/getAllAttributes",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getAllAttributes",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getAllAttributes",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getReturnNames.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/getReturnNames",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/getReturnNames",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getReturnNames",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getReturnNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getParameterNames.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/getParameterNames",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/getParameterNames",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getParameterNames",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getParameterNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getMessageNames.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/getMessageNames",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/getMessageNames",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getMessageNames",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getMessageNames",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.getOneAttribute.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/getOneAttribute",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/getOneAttribute",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/getOneAttribute",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.autoscale.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/Jamoma/library/components/autoscale",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/Jamoma/library/components/autoscale",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/autoscale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
